@@ -14,3 +14,9 @@ After going through the XML I've realized that I'll need to edit it in some plac
 5. I may tinker with benign punctuation, like commas between entries and definitions, brackets, parentheses. However, I'll respect the meaningful punctuation like comma vs. semi-colon within a definition.
 6. Salmone uses transcripted text for prepositions, e.g. ['An & Bi or acc.]. I'll probably substitute arabic text thus : [عن & ب/ه]. I'll need sure RTL/bidi is correct. Usually it is quite tricky around brackets and symbols. The XML may not need to be edited for this.
 7. I may "fix" Arabic orthography, especially with respect to hamza. Not sure about this...
+
+## SCM and versioning
+
+I don't know yet how to use eXist-db with git. It has its own versioning that is mentioned in its docs. For now I'm using backup/restore or copy-paste for transfering changes between eXist-db and git. Horrible, I know...
+
+I've seen this project (https://github.com/XQueryInstitute/shakespeare-search) which uses `ant` scripts to manage this. I need to study that..
