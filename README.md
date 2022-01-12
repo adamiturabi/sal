@@ -20,3 +20,13 @@ After going through the XML I've realized that I'll need to edit it in some plac
 I don't know yet how to use eXist-db with git. It has its own versioning that is mentioned in its docs. For now I'm using backup/restore or copy-paste for transfering changes between eXist-db and git. Horrible, I know...
 
 I've seen this project (https://github.com/XQueryInstitute/shakespeare-search) which uses `ant` scripts to manage this. I need to study that..
+
+## How to use
+
+1. Install eXist-db
+2. Start eXist-db server.
+4. Right click on eXist icon in system tray and open eXide IDE (comes with eXist-db).
+5. File->Manage
+6. Upload `db/lexica/ara/sal/usalmone.xml`. You'll have to create collections to maintain this directory structure.
+7. Upload `db/apps/display_entry.xql`
+8. In a browser window go to http://localhost:8080/exist/apps/salmone/display_entry.xql?key=%D8%A8%D9%8E%D9%87%D9%8E%D8%A3%D9%8E. Replace the arabic key text in the URL as desired.
