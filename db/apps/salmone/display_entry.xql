@@ -52,7 +52,7 @@ declare function local:process_formIIplusverb($formin as node()) {
     <div class="card-body">
         <span class="px-2">
             <span class="border border-primary">
-                <span class="badge bg-primary">Preterite:</span>
+                <span class="badge bg-primary">pret:</span>
                 {fn:normalize-space($form/orth/text())}
             </span>
         </span>
@@ -66,13 +66,13 @@ declare function local:process_formIverb($formin as node()) {
     <div class="card-body">
         <span class="px-2">
             <span class="border border-primary">
-                <span class="badge bg-primary">Preterite:</span>
+                <span class="badge bg-primary">pret.</span>
                 {fn:normalize-space($form/orth/text())}
             </span>
         </span>
         <span class="px-2">
             <span class="border border-primary">
-                <span class="badge bg-primary">Aorist:</span>
+                <span class="badge bg-primary">ao.</span>
                 {fn:normalize-space($form/itype/text())}
             </span>
         </span>
@@ -98,7 +98,7 @@ declare function local:process_masdars($formin as node()+)
 <div class="card">
     <div class="card-body">
         <span class="px-2"> <span class="border border-primary">
-            <span class="badge bg-primary">Nouns of action:</span>
+            <span class="badge bg-primary">n.ac.</span>
 {
         if (exists($form/form)) then
             local:process_form_list($form)
@@ -126,7 +126,7 @@ declare function local:process_inline_aorist($itypein as node()+) {
     return
 <span class="px-2">
     <span class="border border-primary">
-        <span class="badge bg-primary">Aorist:</span>
+        <span class="badge bg-primary">ao.</span>
         {fn:normalize-space($itype/text())}
     </span>
 </span>
@@ -136,7 +136,7 @@ declare function local:process_inline_masdar($formin as node()+) {
     return
 <span class="px-2">
     <span class="border border-primary">
-        <span class="badge bg-primary">Nouns of action:</span>
+        <span class="badge bg-primary">n.ac.</span>
 {
         if (exists($form/form)) then
             local:process_form_list($form)
@@ -151,20 +151,56 @@ declare function local:process_inline_form($formin as node()+) {
         if (fn:exists($form/itype) and $form/itype/@type="vowel") then
             local:process_inline_aorist($form/itype)
         else if (exists($form/mood) and fn:lower-case(fn:normalize-space($form/mood/text()))="n. ac.") then
-            local:process_inline_masdar($form/itype)
+            local:process_inline_masdar($form)
         else if (exists($form/form)) then
             local:process_inline_form($form/form)
         else()
 };
-declare function local:process_sense($sense_nodein as node()+) as xs:string* {
-    for $sense_node in $sense_nodein/node()
+declare function local:process_subc($subc as element()) {
+    for $x in $subc/node()
     return
-        if (fn:exists($sense_nodein/text())) then
-            $sense_node
-        else if (fn:exists($sense_nodein/form)) then
-            local:process_inline_form($sense_nodein/form)
-        else if (fn:exists($sense_node/element())) then 
-            local:process_sense($sense_node/node())
+        if ($x = "Bi") then
+            "ب"
+        else if ($x = "La") then
+            "ل"
+        else if ($x = "Ila") then
+            "إلى"
+        else if ($x = "'An") then
+            "عن"
+        else if ($x = "'Ala") then
+            "على"
+        else if ($x = "Fi") then
+            "في"
+        else if ($x = "Bayn") then
+            "بين"
+        else $x
+};
+declare function local:process_gramGrp($gramGrp_in as element()) {
+    for $x in $gramGrp_in/node()
+    return
+        if ($x instance of text()) then
+            $x
+        else if (name($x) = "subc") then
+            local:process_subc($x)
+        else if (name($x) = "gram") then
+            <i>{string($x)}</i>
+        else if (name($x) = "case" and string($x) = "acc.") then
+            "ه"
+        else $x
+};
+declare function local:process_sense($sense_nodein as node()+) {
+    for $x in $sense_nodein/node()
+    return
+        if ($x instance of text()) then
+            $x
+        else if (name($x) = "dictScrap") then
+            local:process_sense($x)
+        else if (name($x) = "form") then
+            local:process_inline_form($x)
+        else if (name($x) = "usg") then
+            <i>{string($x)}</i>
+        else if (name($x) = "gramGrp") then
+            local:process_gramGrp($x)
         else ()
 };
 declare function local:process_senses($entry as node()) {
@@ -250,4 +286,5 @@ let $html_document :=
 return (
     document{ $html_document} 
 )
+
 
