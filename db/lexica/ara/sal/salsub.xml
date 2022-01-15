@@ -1,0 +1,2208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<div1>
+        <div2 part="N" n="يسر" org="uniform" sample="complete" type="root">
+          <entryFree id="n48441" key="يَسَرَ" type="main">
+            <form>
+                <orth extent="full" lang="ar">يَسَرَ</orth>
+                <itype type="conj">I</itype>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>pret.</mood>
+                <form>
+                  <orth extent="full" lang="ar">يَسَرَ</orth>
+                </form>
+              </form>
+              <form display="il">
+                <mood>ao.</mood>
+                <form>
+                  <itype type="vowel">I</itype>
+                </form>
+              </form>
+              <form display="il">
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">يَسْر</orth>
+                  <itype>1</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">يَسَر</orth>
+                  <itype>4</itype>
+                </form>
+              </form>
+            </form>
+            <sense n="a">Was gentle, kind.</sense>
+            <sense n="b">
+              <dictScrap> Had an easy confinement ( <usg>woman</usg> ).
+              </dictScrap>
+            </sense>
+            <sense n="c">Approached on the left.</sense>
+            <sense n="d">
+              <dictScrap>
+                <form display="il">
+                  <mood>n. ac.</mood>
+                  <form type="n">
+                    <orth orig="" extent="full" lang="ar">يَسْر</orth>
+                    <itype>1</itype>
+                  </form>
+                </form>
+                Cast lots with arrows. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48442" key="يَسِرَ" type="main">
+            <form>
+                <orth orig="Bi" extent="full" lang="ar">يَسِرَ</orth>
+                <itype type="conj">Ii</itype>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>pret.</mood>
+                <form>
+                  <orth orig="Bi" extent="full" lang="ar">يَسِرَ</orth>
+                </form>
+              </form>
+              <form display="il">
+                <mood>ao.</mood>
+                <form>
+                  <itype type="vowel">A</itype>
+                </form>
+              </form>
+              <form display="il">
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">يَسَر</orth>
+                  <itype>4</itype>
+                </form>
+              </form>
+            </form>
+            <sense n="a">Was easy, feasible.</sense>
+          </entryFree>
+          <entryFree id="n48443" key="يَسُرَ" type="main">
+            <form>
+                <orth orig="Bu" extent="full" lang="ar">يَسُرَ</orth>
+                <itype type="conj">Iu</itype>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>pret.</mood>
+                <form>
+                  <orth orig="Bu" extent="full" lang="ar">يَسُرَ</orth>
+                </form>
+              </form>
+              <form display="il">
+                <mood>ao.</mood>
+                <form>
+                  <itype type="vowel">U</itype>
+                </form>
+              </form>
+              <form display="il">
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">يُسْر</orth>
+                  <itype>3</itype>
+                </form>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U"/>
+                </xr> ( <orth orig="Bi" extent="full" lang="ar">يَسِرَ</orth> ).
+              </dictScrap>
+            </sense>
+            <sense n="b">Was little, scanty.</sense>
+          </entryFree>
+          <entryFree id="n48444" key="يَسَّرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">يَسَّرَ</orth>
+              <itype type="conj">II</itype>
+            </form>
+            <sense n="a">
+              <dictScrap> [ <gramGrp>
+                  <case>acc.</case> &amp; <subc>La</subc>
+                </gramGrp> ], Facilitated, made easy for. </dictScrap>
+            </sense>
+            <sense n="b">Made to prosper, succeed; aided; abetted.</sense>
+            <sense n="c">Prospered; throve.</sense>
+          </entryFree>
+          <entryFree id="n48445" key="يَاْسَرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">يَاْسَرَ</orth>
+              <itype type="conj">III</itype> , </form>
+            <sense n="a">Treated kindly.</sense>
+            <sense n="b">
+              <dictScrap> [ <gramGrp>
+                  <subc>Bi</subc>
+                </gramGrp> ], Went to the left of. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48446" key="أَيْسَرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">أَيْسَرَ</orth>
+              <itype type="conj">IV</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (b)</ref>
+                </xr> . </dictScrap>
+            </sense>
+            <sense n="b">Was wealthy.</sense>
+          </entryFree>
+          <entryFree id="n48447" key="تَيَسَّرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">تَيَسَّرَ</orth>
+              <itype type="conj">V</itype> , </form>
+            <sense n="a">Was easy; succeeded.</sense>
+            <sense n="b">
+              <dictScrap> [ <gramGrp>
+                  <subc>La</subc>
+                </gramGrp> ], Was easy for. </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap> Divided ( <usg>camels</usg> ). </dictScrap>
+            </sense>
+            <sense n="d">Was cold.</sense>
+          </entryFree>
+          <entryFree id="n48448" key="تَيَاْسَرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">تَيَاْسَرَ</orth>
+              <itype type="conj">VI</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (c)</ref>
+                </xr></dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (d)</ref>
+                </xr></dictScrap>
+            </sense>
+            <sense n="c">Divided, shared a slaughtered beast.</sense>
+            <sense n="d">Helped each other; co-operated.</sense>
+          </entryFree>
+          <entryFree id="n48449" key="إِيْتَسَرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">إِيْتَسَرَ</orth>
+              <itype type="conj">VIII</itype>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>pret.</mood>
+                <form>
+                  <orth extent="full" lang="ar">ايتَسَرَ</orth>
+                </form>
+                <form>
+                  <orth extent="full" lang="ar">اتَّسَرَ</orth>
+                </form>
+              </form>
+              <form display="il">
+                <mood>ao.</mood>
+                <form>
+                  <orth extent="full" lang="ar">يَتَّسِرُ</orth>
+                </form>
+                <form>
+                  <orth extent="full" lang="ar">يَأتَسِرُ</orth>
+                </form>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (d)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48450" key="إِسْتَيْسَرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">إِسْتَيْسَرَ</orth>
+              <itype type="conj">X</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">V (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap> [ <gramGrp>
+                  <subc>La</subc>
+                </gramGrp> ], Was ready, prepared for. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48451" key="يَسْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسْر</orth>
+                <itype>1</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr></dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (b)</ref>
+                </xr></dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48452" key="يَسْرَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسْرَة</orth>
+                <itype>1t</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">22 (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48453" key="يَسْرِيّ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسْرِيّ</orth>
+                <itype>1yi</itype>
+              </form> , </form>
+            <sense n="a">Prosperous, fortunate.</sense>
+          </entryFree>
+          <entryFree id="n48454" key="يُسْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يُسْر</orth>
+                <itype>3</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+            <sense n="b">Prosperity, affluence.</sense>
+          </entryFree>
+          <entryFree id="n48455" key="يُسْرَى" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يُسْرَى</orth>
+                <itype>3ya</itype>
+              </form>
+              <form display="il">
+                <number>pl.</number>
+                <form>
+                  <orth extent="full" lang="ar">يُسْرَيَات</orth>
+                </form>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">22 (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+            <sense n="b">Prosperity.</sense>
+          </entryFree>
+          <entryFree id="n48457" key="يَسَر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسَر</orth>
+                <itype>4</itype>
+              </form> , </form>
+            <sense n="a">Ease; facility; attainability; practicability.</sense>
+            <sense n="b">Gentleness, affableness, obligingness.</sense>
+            <sense n="c">
+              <dictScrap>
+                <form display="il">
+                  <number>pl.</number>
+                  <form type="n">
+                    <orth orig="" extent="full" lang="ar">أَيْسَاْر</orth>
+                    <itype>38</itype>
+                  </form>
+                </form>Easy; gentle; affable. </dictScrap>
+            </sense>
+            <sense n="d">Prepared, ready.</sense>
+            <sense n="e">Gambling.</sense>
+            <sense n="f">
+              <dictScrap> Drawer of the lot ( <usg>in gambling</usg> ).
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48458" key="يَسَرَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسَرَة</orth>
+                <itype>4t</itype>
+              </form>
+              <form display="il">
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">أَيْسَاْر</orth>
+                  <itype>38</itype>
+                </form>
+                <gram type="infl">reg.</gram>
+              </form>
+            </form>
+            <sense n="a">Lines of the hand.</sense>
+            <sense n="b">Brand.</sense>
+          </entryFree>
+          <entryFree id="n48459" key="يُسُر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يُسُر</orth>
+                <itype>10</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3 (c)</ref>
+                </xr></dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref> &amp; <ref targOrder="U">4</ref>
+                </xr></dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (b)</ref> &amp; <ref targOrder="U">4</ref>
+                </xr></dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48460" key="أَيْسَرُ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">أَيْسَرُ</orth>
+                <itype>14</itype>
+              </form> , </form>
+            <sense n="a">Easier.</sense>
+            <sense n="b">Left, on the left; sinister, sinistral.</sense>
+          </entryFree>
+          <entryFree id="n48461" key="مَيْسَر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">مَيْسَر</orth>
+                <itype>17</itype>
+              </form> , </form>
+            <sense n="a">A plant.</sense>
+          </entryFree>
+          <entryFree id="n48462" key="مَيْسَرَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">مَيْسَرَة</orth>
+                <itype>17t</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3 (c)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">18t (d)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48463" key="مَيْسِر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">مَيْسِر</orth>
+                <itype>18</itype>
+              </form> , </form>
+            <sense n="a">Game of arrows; gambling.</sense>
+            <sense n="b">Stakes; animal to be gambled for.</sense>
+          </entryFree>
+          <entryFree id="n48464" key="مَيْسِرَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">مَيْسِرَة</orth>
+                <itype>18t</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3 (c)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (b)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="d">
+              <dictScrap>
+                <form display="il">
+                  <number>pl.</number>
+                  <form type="n">
+                    <orth orig="" extent="full" lang="ar">مَيَاْسِرُ</orth>
+                    <itype>44</itype>
+                  </form>
+                </form>
+                Left side; left wing or flank ( <usg>army</usg> ).
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48465" key="مَيْسُرَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">مَيْسُرَة</orth>
+                <itype>19t</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3 (c)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (b)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="d">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">18t (d)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48466" key="يَاْسِر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَاْسِر</orth>
+                <itype>21</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">18t (d)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">25 (a)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="c">Gambler, player.</sense>
+            <sense n="d">
+              <dictScrap>
+                <form display="il">
+                  <number>pl.</number>
+                  <form type="n">
+                    <orth orig="" extent="full" lang="ar">أَيْسَاْر</orth>
+                    <itype>38</itype>
+                  </form>
+                </form>
+                Slaughterer. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48467" key="يَسَاْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسَاْر</orth>
+                <itype>22</itype>
+              </form>
+              <form display="il">
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">يَسْرَة</orth>
+                  <itype>1t</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">يُسْر</orth>
+                  <itype>3</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">يُسْرَى</orth>
+                  <itype>3ya</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">يُسُر</orth>
+                  <itype n="pref">10</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Left; left hand, left side.</sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3 (c)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48468" key="يَسَاْرَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسَاْرَة</orth>
+                <itype>22t</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3 (c)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr>
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48469" key="يِسَاْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يِسَاْر</orth>
+                <itype>23</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">22 (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48470" key="يَسِيْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسِيْر</orth>
+                <itype>25</itype>
+              </form> , </form>
+            <sense n="a">Easy, facile, feasible, practicable;
+              attainable.</sense>
+            <sense n="b">Paltry, scanty, little; moderate.</sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">21 (c)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48471" key="يَسُوْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسُوْر</orth>
+                <itype>26</itype>
+              </form>
+              <form display="il">
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">يُسُر</orth>
+                  <itype>10</itype>
+                </form>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">21 (c)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48472" key="يَسَّاْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">يَسَّاْر</orth>
+                <itype>28</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">14 (b)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48473" key="مَيْسُور" type="main">
+            <form>
+              <mood>N. P.</mood>
+              <form>
+                <orth orig="" extent="full" lang="ar">مَيْسُور</orth>
+                <itype type="conj">I</itype>
+              </form>
+              <form display="il">
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">مَيَاْسِيْرُ</orth>
+                  <itype>65</itype>
+                </form>
+              </form>
+            </form>
+            <sense n="a">Facilitated, seconded; successful.</sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3 (c)</ref>
+                </xr></dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">25 (a)</ref>
+                </xr></dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48474" key="تَيْسِير" type="main">
+            <form>
+              <mood>N. Ac.</mood>
+              <form>
+                <orth orig="" extent="full" lang="ar">تَيْسِير</orth>
+                <itype type="conj">II</itype>
+              </form> , </form>
+            <sense n="a">Flourishing condition, thriving.</sense>
+            <sense n="b">
+              <dictScrap> Motion. <pb n="1248"/>
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48475" key="مُوْسِر" type="main">
+            <form>
+              <mood>N. Ag.</mood>
+              <form>
+                <orth extent="full" lang="ar">مُوْسِر</orth> [ 
+                <itype type="conj">IV</itype>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap> 
+                <form>
+                  <number>pl.</number>
+                  <form>
+                    <orth extent="full" lang="ar">مَيَاسِيْر</orth>
+                    <itype>65</itype>
+                  </form>
+                </form>
+                Opulent, wealthy. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48476" key="يَسِيْرًا" type="main">
+            <form>
+              <orth extent="full" lang="ar">يَسِيْرًا</orth> , <orth extent="full" lang="ar">يَسَارِ</orth>
+            </form>
+            <sense n="a">A little.</sense>
+          </entryFree>
+          <entryFree id="n48477" key="بِالْيَسِيْرِ" type="main">
+            <form>
+              <orth extent="full" lang="ar">بِالْيَسِيْرِ</orth>
+            </form>
+            <sense n="a">Easily, with facility.</sense>
+          </entryFree>
+          <entryFree id="n48478" key="يَسَارًا" type="main">
+            <form>
+              <orth extent="full" lang="ar">يَسَارًا</orth> , </form>
+            <sense n="a">
+              <dictScrap>
+                <foreign lang="ar">عَن اليَسَار</foreign> On the left.
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48479" key="يَسَرَات" type="main">
+            <form>
+              <orth extent="full" lang="ar">يَسَرَات</orth>
+            </form>
+            <sense n="a">Nimble feet or hands.</sense>
+          </entryFree>
+          <entryFree id="n48480" key="تَيْسُوْر" type="main">
+            <form>
+              <orth extent="full" lang="ar">تَيْسُوْر</orth>
+            </form>
+            <sense n="a">
+              <dictScrap>
+                <xr idref="n48474" refSense="b">
+                  <lbl>see N. Ac.</lbl>
+                  <ref targOrder="U">II (b)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n48481" key="أَعْسَر يَسَر" type="main">
+            <form>
+              <orth extent="full" lang="ar">أَعْسَر يَسَر</orth>
+            </form>
+            <sense n="a">Ambi-dextrous.</sense>
+          </entryFree>
+          <entryFree id="n48482" key="يَسَف" type="main">
+            <form>
+              <orth extent="full" lang="ar">يَسَف</orth>
+            </form>
+            <sense n="a">A kind of fly.</sense>
+          </entryFree>
+        </div2>
+        <div2 part="N" n="سلط" org="uniform" sample="complete" type="root">
+          <entryFree id="n14130" key="سَلِطَ" type="main">
+            <form>
+                <orth extent="full" lang="ar">سَلِطَ</orth>
+                <itype type="conj">I</itype>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>pret.</mood>
+                <form>
+                  <orth extent="full" lang="ar">سَلِطَ</orth>
+                </form>
+              </form>
+              <form display="il">
+                <mood>ao.</mood>
+                <form>
+                  <itype type="vowel">A</itype>
+                </form>
+              </form>
+              <form display="il">
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَلَط</orth>
+                  <itype>4</itype>
+                </form>
+              </form>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>pret.</mood>
+                <form>
+                  <orth orig="Bu" extent="full" lang="ar">سَلُطَ</orth>
+                </form>
+              </form>
+              <form display="il">
+                <mood>ao.</mood>
+                <form>
+                  <itype type="vowel">U</itype>
+                </form>
+              </form>
+              <form display="il">
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَلَاْطَة</orth>
+                  <itype>22t</itype>
+                </form>
+              </form>
+            </form>
+            <sense n="a">Was hard, unyielding; was despotic, imperious,
+              domineering; was absolute, supreme.</sense>
+            <sense n="b">Was a ready speaker, was fluent; was glib of tongue;
+              was sarcastic, caustic; was clamorous, long-tongued.</sense>
+          </entryFree>
+          <entryFree id="n14131" key="سَلَّطَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">سَلَّطَ</orth>
+              <itype type="conj">II</itype> , </form>
+            <sense n="a">
+              <dictScrap> [ <gramGrp>
+                  <case>acc.</case> &amp; <subc>'Ala</subc>
+                </gramGrp> ], Rendered master of; gave the mastery over.
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14132" key="تَسَلَّطَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">تَسَلَّطَ</orth>
+              <itype type="conj">V</itype>
+            </form>
+            <sense n="a">
+              <dictScrap> [ <gramGrp>
+                  <subc>Ala</subc>
+                </gramGrp> ], Overcame, prevailed over; mastered, subdued;
+                became master of. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14133" key="سَلْط" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلْط</orth>
+                <itype>1</itype>
+              </form> , </form>
+            <sense n="a">Hard, strong; unyielding, unbending.</sense>
+            <sense n="b">Sharp; sharptongued, clamorous; sarcastic, caustic,
+              biting.</sense>
+          </entryFree>
+          <entryFree id="n14134" key="سَلْطَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلْطَة</orth>
+                <itype>1t</itype>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap> [ <usg type="reg">coll.</usg> ], Jacket, jerkin.
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14135" key="سِلْطَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سِلْطَة</orth>
+                <itype>2t</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سِلَط</orth>
+                  <itype>7</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">سِلَاْط</orth>
+                  <itype>23</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Long slender arrow.</sense>
+            <sense n="b">Pàlliasse.</sense>
+          </entryFree>
+          <entryFree id="n14136" key="سُلْطَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سُلْطَة</orth>
+                <itype>3t</itype>
+              </form> , </form>
+            <sense n="a">Power, rule, dominion, empire; sovereignty.</sense>
+          </entryFree>
+          <entryFree id="n14137" key="سَلِيْط" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلِيْط</orth>
+                <itype>25</itype>
+              </form> , </form>
+            <sense n="a">Fluent; glib.</sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">1 (a)</ref>
+                </xr> </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">1 (b)</ref>
+                </xr> </dictScrap>
+            </sense>
+            <sense n="d">
+              <dictScrap>
+                <form> ( <form>
+                    <number>pl.</number>
+                    <form type="n">
+                      <orth orig="" extent="full" lang="ar">سِلْطَاْن</orth>
+                      <itype>34</itype>
+                    </form>
+                  </form>
+                </form> ), Oil. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14138" key="سَلِيْطَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلِيْطَة</orth>
+                <itype>25t</itype>
+              </form> , </form>
+            <sense n="a">Shrilltongued, clamorous, shrewish; shrew.</sense>
+          </entryFree>
+          <entryFree id="n14139" key="سُلْطَاْن" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سُلْطَاْن</orth>
+                <itype>35</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3t</ref>
+                </xr> . </dictScrap>
+            </sense>
+            <sense n="b">Sultan, sovereign.</sense>
+          </entryFree>
+          <entryFree id="n14140" key="سُلْطَاْنِيّ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سُلْطَاْنِيّ</orth>
+                <itype>35yi</itype>
+              </form> , </form>
+            <sense n="a">Imperial, royal, kingly.</sense>
+          </entryFree>
+        </div2>
+        <div2 part="N" n="كلب" org="uniform" sample="complete" type="root">
+          <entryFree id="n33023" key="كَلَبَ" type="main">
+            <form>
+              <orth extent="full" lang="ar">كَلَبَ</orth>
+              <itype type="vowel">U</itype> ( <form>
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">كَلْب</orth>
+                  <itype>1</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Spurred.</sense>
+            <sense n="b">Sewed.</sense>
+            <sense n="c">
+              <dictScrap>
+                <form>
+                  <itype type="vowel">I</itype> ( <form>
+                    <mood>n. ac.</mood>
+                    <form type="n">
+                      <orth orig="" extent="full" lang="ar">كَلْب</orth>
+                      <itype>1</itype>
+                    </form>
+                  </form>
+                </form> ), Barked like a dog. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33024" key="كَلِبَ" type="main">
+            <form>
+              <orth orig="Bi" extent="full" lang="ar">كَلِبَ</orth>
+              <itype type="vowel">A</itype> ( <form>
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">كَلَب</orth>
+                  <itype>4</itype>
+                </form>
+              </form> ) [&amp; <gram type="voice">pass.</gram> ], </form>
+            <sense n="a">Was seized with hydrophobia; was rabid; was mad; was
+              enraged.</sense>
+            <sense n="b">
+              <dictScrap> [ <gramGrp>
+                  <subc>'Ala</subc>
+                </gramGrp> ], Was enraged against. </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap> Was severe ( <usg>winter</usg> ). </dictScrap>
+            </sense>
+            <sense n="d">Thirsted.</sense>
+            <sense n="e">Ate greedily, was insatiable.</sense>
+            <sense n="f">
+              <dictScrap> [ <gramGrp>
+                  <subc>'Ala</subc>
+                </gramGrp> ], Longed for. </dictScrap>
+            </sense>
+            <sense n="g">
+              <dictScrap> Was bare ( <usg>tree</usg> ). </dictScrap>
+            </sense>
+            <sense n="h">
+              <dictScrap>
+                <form> ( <form>
+                    <mood>n. ac.</mood>
+                    <form type="n">
+                      <orth orig="" extent="full" lang="ar">كَلَب</orth>
+                      <itype>4</itype>
+                    </form> , <form type="n">
+                      <orth orig="" extent="full" lang="ar">مَكْلَبَة</orth>
+                      <itype>17t</itype>
+                    </form>
+                  </form>
+                </form> ), Acted as a pimp. </dictScrap>
+            </sense>
+            <sense n="i">
+              <dictScrap> [ <gramGrp>
+                  <subc>'Ala</subc>
+                </gramGrp> ], Pressed upon. </dictScrap>
+            </sense>
+            <sense n="j">
+              <dictScrap>
+                <xr>
+                  <lbl>see supra</lbl>
+                  <ref targOrder="U">(c)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33025" key="كَلَّبَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">كَلَّبَ</orth>
+              <itype type="conj">II</itype> , </form>
+            <sense n="a">
+              <dictScrap> Trained, dressed ( <usg>dog</usg> ). </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap> [ <usg type="reg">coll.</usg> ], Held, stuck together,
+                cohered. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33026" key="كَاْلَبَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">كَاْلَبَ</orth>
+              <itype type="conj">III</itype> , </form>
+            <sense n="a">Vexed, plagued, tormented.</sense>
+            <sense n="b">
+              <dictScrap> Ate thorns ( <usg>camels</usg> ). </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33027" key="أَكْلَبَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">أَكْلَبَ</orth>
+              <itype type="conj">IV</itype> , </form>
+            <sense n="a">Had rabid cattle.</sense>
+          </entryFree>
+          <entryFree id="n33028" key="تَكَاْلَبَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">تَكَاْلَبَ</orth>
+              <itype type="conj">VI</itype>
+            </form>
+            <sense n="a">
+              <dictScrap> [ <gramGrp>
+                  <subc>'Ala</subc>
+                </gramGrp> ], Rushed upon. </dictScrap>
+            </sense>
+            <sense n="b">Was like a dog.</sense>
+          </entryFree>
+          <entryFree id="n33029" key="إِسْتَكْلَبَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">إِسْتَكْلَبَ</orth>
+              <itype type="conj">X</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (c)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33030" key="كَلْب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلْب</orth>
+                <itype>1</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">أَكْلُب</orth>
+                  <itype>16</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">كِلَاْب</orth>
+                  <itype n="pref">23</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">كَلِيْب</orth>
+                  <itype>25</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">أَكَاْلِبُ</orth>
+                  <itype>37</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">أَكَاْلِيْبُ</orth>
+                  <itype>69</itype>
+                </form>
+              </form> &amp; </form>
+            <sense/>
+          </entryFree>
+          <entryFree id="n33031" key="كِلَابَات" type="main">
+            <form>
+              <orth extent="full" lang="ar">كِلَابَات</orth> ), </form>
+            <sense n="a">Dog.</sense>
+            <sense n="b">
+              <dictScrap> Pivot, axis ( <usg>of a mill-stone</usg> ).
+              </dictScrap>
+            </sense>
+            <sense n="c">Hook; claw; spur; support; nail; strap.</sense>
+            <sense n="d">
+              <dictScrap> Line, streak ( <usg>on a horse's back</usg> ).
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33032" key="كَلْبَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلْبَة</orth>
+                <itype>1t</itype>
+              </form> , </form>
+            <sense n="a">Bitch.</sense>
+            <sense n="b">A certain thorny shrub.</sense>
+          </entryFree>
+          <entryFree id="n33033" key="كَلْبِيّ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلْبِيّ</orth>
+                <itype>1yi</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap> Canine; dog-like; ravenous ( <usg>hunger</usg> ).
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33034" key="كُلْبَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كُلْبَة</orth>
+                <itype>3t</itype>
+              </form> , </form>
+            <sense n="a">Distress; scarcity, dearth; drought.</sense>
+            <sense n="b">
+              <dictScrap> Intensity, severity ( <usg>of cold</usg> ).
+              </dictScrap>
+            </sense>
+            <sense n="c">Wine-shop.</sense>
+            <sense n="d">Thong.</sense>
+            <sense n="e">
+              <dictScrap> Whiskers, smellers ( <def>of a cat</def> &amp;
+                  <def>c.</def> ), </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33035" key="كَلَب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلَب</orth>
+                <itype>4</itype>
+              </form> , </form>
+            <sense n="a">Hydrophobia; madness.</sense>
+            <sense n="b">Ravenous hunger; voracity; greed.</sense>
+            <sense n="c">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3t (b)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33036" key="كَلِب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلِب</orth>
+                <itype>5</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">كَلْبَى</orth>
+                  <itype>1ya</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Rabid, mad.</sense>
+            <sense n="b">
+              <dictScrap> Hard, trying, evil ( <usg>times</usg> ). </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap> Importunate ( <usg>beggar</usg> ). </dictScrap>
+            </sense>
+            <sense n="d">Dry, leafless tree.</sense>
+          </entryFree>
+          <entryFree id="n33037" key="كَلِبَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلِبَة</orth>
+                <itype>5t</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">1t (b)</ref>
+                </xr> . </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap> Arid, rugged ( <usg>land</usg> ). </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33038" key="كَاْلِب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَاْلِب</orth>
+                <itype>21</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">كُلَّاْب</orth>
+                  <itype>29</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">28</ref>
+                </xr> . </dictScrap>
+            </sense>
+            <sense n="b">Dogs, pack of dogs; hounds.</sense>
+          </entryFree>
+          <entryFree id="n33039" key="كَلَاْب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلَاْب</orth>
+                <itype>22</itype>
+              </form> , </form>
+            <sense n="a">Madness, rabidness, delirium, frenzy.</sense>
+            <sense n="b">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33040" key="كُلَاْب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كُلَاْب</orth>
+                <itype>24</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">4 (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33041" key="كَلِيْب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلِيْب</orth>
+                <itype>25</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">21 (b)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33042" key="كَلَّاْب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلَّاْب</orth>
+                <itype>28</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap> Owner <pb n="878"/> of dogs; dog-fancier. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33043" key="كُلَّاْب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كُلَّاْب</orth>
+                <itype>29</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">كَلَاْلِيْبُ</orth>
+                  <itype>70</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Hook, flesh-hook; harpoon, grapnel-iron.</sense>
+            <sense n="b">Spur.</sense>
+          </entryFree>
+          <entryFree id="n33044" key="كُلَّاْبَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كُلَّاْبَة</orth>
+                <itype>29t</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <orth extent="full" lang="ar">كُلَّابَات</orth>
+              </form> ), </form>
+            <sense n="a">Tongs, pincers; forceps.</sense>
+          </entryFree>
+          <entryFree id="n33045" key="كَلُّوْب" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلُّوْب</orth>
+                <itype>31</itype>
+              </form> , <form type="n">
+                <orth orig="" extent="full" lang="ar">كُلُّوْب</orth>
+                <itype>32</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">29</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33046" key="كَلَاْلِيْبُ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">كَلَاْلِيْبُ</orth>
+                <itype>70</itype>
+              </form> , </form>
+            <sense n="a">Thorns.</sense>
+            <sense n="b">Talons, claws.</sense>
+          </entryFree>
+          <entryFree id="n33047" key="كَلَّبَ" type="main">
+            <form>
+              <mood>N. Ag.</mood>
+              <form>
+                <orth orig="" extent="full" lang="ar">كَلَّبَ</orth>
+                <itype type="conj">II</itype>
+              </form> , </form>
+            <sense n="a">Trainer of dogs; dog-breeder.</sense>
+          </entryFree>
+          <entryFree id="n33048" key="كَلَّبَ" type="main">
+            <form>
+              <mood>N. P.</mood>
+              <form>
+                <orth orig="" extent="full" lang="ar">كَلَّبَ</orth>
+                <itype type="conj">II</itype>
+              </form> , </form>
+            <sense n="a">Trained, dressed.</sense>
+            <sense n="b">Shackled.</sense>
+          </entryFree>
+          <entryFree id="n33049" key="تَكَاْلَبَ" type="main">
+            <form>
+              <mood>N. Ag.</mood>
+              <form>
+                <orth orig="" extent="full" lang="ar">تَكَاْلَبَ</orth>
+                <itype type="conj">VI</itype>
+              </form> , </form>
+            <sense n="a">Deputy, agent.</sense>
+          </entryFree>
+          <entryFree id="n33050" key="تِكِلَّابَة" type="main">
+            <form>
+              <orth extent="full" lang="ar">تِكِلَّابَة</orth>
+            </form>
+            <sense n="a">Shrew, scold, virago.</sense>
+          </entryFree>
+          <entryFree id="n33051" key="الكَلْبَانِ" type="main">
+            <form>
+              <orth extent="full" lang="ar">الكَلْبَانِ</orth>
+            </form>
+            <sense n="a">
+              <dictScrap> The stars <foreign lang="greek">ν</foreign> &amp;
+                  <foreign lang="greek">κ</foreign> in Taurus. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33052" key="كَلْبَتَان" type="main">
+            <form>
+              <orth extent="full" lang="ar">كَلْبَتَان</orth>
+            </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see supra</lbl>
+                  <ref targOrder="U">29t</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33053" key="كَلْب البَحْر" type="main">
+            <form>
+              <orth extent="full" lang="ar">كَلْب البَحْر</orth>
+            </form>
+            <sense n="a">Shark; dog-fish.</sense>
+          </entryFree>
+          <entryFree id="n33054" key="كَلْبُ البَرّ" type="main">
+            <form>
+              <orth extent="full" lang="ar">كَلْبُ البَرّ</orth>
+            </form>
+            <sense n="a">The wolf.</sense>
+          </entryFree>
+          <entryFree id="n33055" key="أَلْكَلْبُ الأَكْبَر" type="main">
+            <form>
+              <orth extent="full" lang="ar">أَلْكَلْبُ الأَكْبَر</orth>
+            </form>
+            <sense n="a">Sirius, the Dogstar; Canis Major.</sense>
+          </entryFree>
+          <entryFree id="n33056" key="أَلْكَلْبُ الأَصْغَر" type="main">
+            <form>
+              <form>
+                <orth extent="full" lang="ar">أَلْكَلْبُ الأَصْغَر</orth>
+              </form>
+              <form>
+                <orth extent="full" lang="ar">أَلْكَلْبُ المُتَقَدِّم</orth>
+              </form>
+            </form>
+            <sense n="a">Canis Minor.</sense>
+            <sense n="b">
+              <dictScrap> Procyon ( <usg>star</usg> ). </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33057" key="كَلْب الرَّاعِى" type="main">
+            <form>
+              <orth extent="full" lang="ar">كَلْب الرَّاعِى</orth>
+            </form>
+            <sense n="a">A certain star in Cepheus.</sense>
+          </entryFree>
+          <entryFree id="n33058" key="أُمّ كَلْبٍ" type="main">
+            <form>
+              <orth extent="full" lang="ar">أُمّ كَلْبٍ</orth>
+            </form>
+            <sense n="a">A thorny shrub.</sense>
+          </entryFree>
+          <entryFree id="n33059" key="لِسَان الكَلْب" type="main">
+            <form>
+              <orth extent="full" lang="ar">لِسَان الكَلْب</orth>
+            </form>
+            <sense n="a">
+              <dictScrap> Dog's tongue, cynoglossum ( <usg>plant</usg> ).
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n33060" key="أُمُّ كَلْبَة" type="main">
+            <form>
+              <orth extent="full" lang="ar">أُمُّ كَلْبَة</orth>
+            </form>
+            <sense n="a">Fever.</sense>
+          </entryFree>
+          <entryFree id="n33061" key="كِلَاب الشِّتَآء" type="main">
+            <form>
+              <orth extent="full" lang="ar">كِلَاب الشِّتَآء</orth>
+            </form>
+            <sense n="a">The 7th, 8th, 9th &amp; 10th Mansions of the
+              moon.</sense>
+          </entryFree>
+        </div2>
+       <div2 part="N" n="سمر" org="uniform" sample="complete" type="root">
+          <entryFree id="n14318" key="سَمَرَ" type="main">
+            <form>
+              <orth extent="full" lang="ar">سَمَرَ</orth>
+              <itype type="vowel">U</itype> ( <form>
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَمْر</orth>
+                  <itype>1</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">سُمُوْر</orth>
+                  <itype>27</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Spent the night in watching, in talking &amp;c.</sense>
+            <sense n="b">
+              <dictScrap>
+                <form> ( <form>
+                    <mood>n. ac.</mood>
+                    <form type="n">
+                      <orth orig="" extent="full" lang="ar">سَمْر</orth>
+                      <itype>1</itype>
+                    </form>
+                  </form>
+                </form> ), Put out ( <usg>the eye of</usg> ). </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap> Watered ( <usg>milk</usg> ). </dictScrap>
+            </sense>
+            <sense n="d">
+              <dictScrap> Shot, discharged ( <usg>arrow</usg> ), </dictScrap>
+            </sense>
+            <sense n="e">
+              <dictScrap>
+                <form>
+                  <itype type="vowel">I</itype> , <itype type="vowel">U</itype>
+                  ( <form>
+                    <mood>n. ac.</mood>
+                    <form type="n">
+                      <orth orig="" extent="full" lang="ar">سَمْر</orth>
+                      <itype>1</itype>
+                    </form>
+                  </form>
+                </form> ), Nailed. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14319" key="سَمِرَ" type="main">
+            <form>
+              <orth orig="Bi" extent="full" lang="ar">سَمِرَ</orth>
+              <itype type="vowel">A</itype>
+            </form>
+            <sense n="a">
+              <dictScrap> _ast; <form>
+                  <orth orig="Bu" extent="full" lang="ar">سَمُرَ</orth>
+                  <itype type="vowel">U</itype>
+                </form> ( <form>
+                  <mood>n. ac.</mood>
+                  <form type="n">
+                    <orth orig="" extent="full" lang="ar">سُمْرَة</orth>
+                    <itype>3t</itype>
+                  </form>
+                </form> ), Was brown, tawny. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14320" key="سَمَّرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">سَمَّرَ</orth>
+              <itype type="conj">II</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (c)</ref>
+                </xr> , ( <usg>d</usg> ), ( <usg>e</usg> ). </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14321" key="سَاْمَرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">سَاْمَرَ</orth>
+              <itype type="conj">III</itype> , </form>
+            <sense n="a">Talked with by night.</sense>
+          </entryFree>
+          <entryFree id="n14322" key="تَسَمَّرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">تَسَمَّرَ</orth>
+              <itype type="conj">V</itype> , </form>
+            <sense n="a">Was nailed.</sense>
+          </entryFree>
+          <entryFree id="n14323" key="تَسَاْمَرَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">تَسَاْمَرَ</orth>
+              <itype type="conj">VI</itype> , </form>
+            <sense n="a">Talked together by night.</sense>
+          </entryFree>
+          <entryFree id="n14324" key="إِسْمَرَّ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">إِسْمَرَّ</orth>
+              <itype type="conj">IX</itype> , </form>
+            <sense n="a">Was brown, tawny.</sense>
+          </entryFree>
+          <entryFree id="n14325" key="سُمْرَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سُمْرَة</orth>
+                <itype>3t</itype>
+              </form> , </form>
+            <sense n="a">Brown, tawny colour.</sense>
+          </entryFree>
+          <entryFree id="n14326" key="سَمَر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَمَر</orth>
+                <itype>4</itype>
+              </form> , </form>
+            <sense n="a">Night-talk.</sense>
+            <sense n="b">Night, darkness; shade of night.</sense>
+          </entryFree>
+          <entryFree id="n14327" key="سَمُر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَمُر</orth>
+                <itype>6</itype>
+              </form> , ( <number>pl.</number>
+              <pb n="372"/>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">أَسْمُر</orth>
+                <itype>16</itype>
+              </form> ), </form>
+            <sense n="a">The gum-acacia.</sense>
+          </entryFree>
+          <entryFree id="n14328" key="أَسْمَرُ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">أَسْمَرُ</orth>
+                <itype>14</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سُمْر</orth>
+                  <itype>3</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Brown, tawny.</sense>
+            <sense n="b">Lance.</sense>
+          </entryFree>
+          <entryFree id="n14329" key="سَاْمِر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَاْمِر</orth>
+                <itype>21</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">25</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14330" key="سَاْمِرَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَاْمِرَة</orth>
+                <itype>21t</itype>
+              </form> , </form>
+            <sense n="a">Samaria.</sense>
+          </entryFree>
+          <entryFree id="n14331" key="سَاْمِرِيّ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَاْمِرِيّ</orth>
+                <itype>21yi</itype>
+              </form> , </form>
+            <sense n="a">Samaritan.</sense>
+          </entryFree>
+          <entryFree id="n14332" key="سَمَاْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَمَاْر</orth>
+                <itype>22</itype>
+              </form> , </form>
+            <sense n="a">Thin milk.</sense>
+          </entryFree>
+          <entryFree id="n14333" key="سَمِيْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَمِيْر</orth>
+                <itype>25</itype>
+              </form> , </form>
+            <sense n="a">Nighttalker; night-companion.</sense>
+          </entryFree>
+          <entryFree id="n14334" key="سَمُوْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَمُوْر</orth>
+                <itype>26</itype>
+              </form> , </form>
+            <sense n="a">Fleet, swift.</sense>
+          </entryFree>
+          <entryFree id="n14335" key="سَمُّوْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَمُّوْر</orth>
+                <itype>31</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَمَاْمِيْرُ</orth>
+                  <itype>70</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">
+              <dictScrap> Sable ( <usg>animal</usg> ). </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14336" key="سَمْرَآءُ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَمْرَآءُ</orth>
+                <itype>42</itype>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap> [ <gramGrp>
+                  <colloc>art.</colloc>
+                </gramGrp> ], Wheat. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14337" key="مِسْمَاْر" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">مِسْمَاْر</orth>
+                <itype>45</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">مَسَاْمِيْرُ</orth>
+                  <itype>65</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Nail; iron pin, peg.</sense>
+          </entryFree>
+          <entryFree id="n14338" key="مَا سَمَرَ السَّمِيْر" type="main">
+            <form>
+              <orth extent="full" lang="ar">مَا سَمَرَ السَّمِيْر</orth>
+            </form>
+            <sense n="a">Ever; for ever.</sense>
+          </entryFree>
+        </div2>
+        <div2 part="N" n="بهء" org="uniform" sample="complete" type="root">
+          <entryFree id="n2385" key="بَهَأَ" type="main">
+            <form>
+                <orth extent="full" lang="ar">بَهَأَ</orth>
+                <itype type="conj">I</itype>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>pret.</mood>
+                <form>
+                  <orth extent="full" lang="ar">بَهَأَ</orth>
+                </form>
+                <form>
+                  <orth extent="full" lang="ar">بَهِئَ</orth>
+                </form>
+              </form>
+              <form display="il">
+                <mood>ao.</mood>
+                <form>
+                  <itype type="vowel">A</itype>
+                </form>
+              </form>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>pret.</mood>
+                <form>
+                  <orth extent="full" lang="ar">بَهُؤَ</orth>
+                </form>
+              </form>
+              <form display="il">
+                <mood>ao.</mood>
+                <form>
+                  <itype type="vowel">U</itype>
+                </form>
+              </form>
+            </form>
+            <form display="card">
+              <form display="il">
+                <mood>n. ac.</mood>
+                <form>
+                  <orth extent="full" lang="ar">بَهْء</orth>
+                </form>
+                <form>
+                  <orth extent="full" lang="ar">بَهَآء</orth>
+                </form>
+                <form>
+                  <orth extent="full" lang="ar">بُهُوْء</orth>
+                </form>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap> [ <gramGrp>
+                  <subc>Bi</subc>
+                </gramGrp> ], Became familiarized with. </dictScrap>
+            </sense>
+            <sense n="b">
+              <dictScrap> [ <gramGrp>
+                  <subc>La</subc>
+                </gramGrp> ], Understood, comprehended. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n2387" key="إِبْتَهَأَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">إِبْتَهَأَ</orth>
+              <itype type="conj">VIII</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n2388" key="بَهَادَوْر" type="main">
+            <form>
+              <orth extent="full" lang="ar">بَهَادَوْر</orth>
+              <lang>P.</lang> , </form>
+            <sense n="a">Champion, warrior.</sense>
+            <sense n="b">Acrobat.</sense>
+          </entryFree>
+        </div2>
+        <div2 part="N" n="سلل" org="uniform" sample="complete" type="root">
+          <entryFree id="n14048" key="سَلَّ" type="main">
+            <form>
+              <orth extent="full" lang="ar">سَلَّ</orth>
+              <itype type="vowel">U</itype> ( <form>
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَلّ</orth>
+                  <itype>1</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Pulled, drew out.</sense>
+            <sense n="b">
+              <dictScrap>
+                <form>
+                  <itype type="vowel">I</itype> ( <form>
+                    <mood>n. ac.</mood>
+                    <form type="n">
+                      <orth orig="" extent="full" lang="ar">سَلّ</orth>
+                      <itype>1</itype>
+                    </form>
+                  </form>
+                </form> ), Lost his teeth. </dictScrap>
+            </sense>
+            <sense n="c">
+              <dictScrap> [ <gramGrp>
+                  <gram type="voice">pass.</gram>
+                </gramGrp> ], Was consumptive. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14049" key="أَسْلَلَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">أَسْلَلَ</orth>
+              <itype type="conj">IV</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (a)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14050" key="تَسَلَّلَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">تَسَلَّلَ</orth>
+              <itype type="conj">V</itype> , </form>
+            <sense n="a">Withdrew; slipped, stole away.</sense>
+          </entryFree>
+          <entryFree id="n14051" key="إِنْسَلَلَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">إِنْسَلَلَ</orth>
+              <itype type="conj">VII</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (c)</ref>
+                </xr> &amp; V. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14052" key="إِسْتَلَلَ" type="main">
+            <form>
+              <orth orig="" extent="full" lang="ar">إِسْتَلَلَ</orth>
+              <itype type="conj">VIII</itype> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">I (a)</ref>
+                </xr> &amp; V. </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14053" key="سَلّ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلّ</orth>
+                <itype>1</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سِلَاْل</orth>
+                  <itype>23</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Basket.</sense>
+            <sense n="b">Toothless.</sense>
+          </entryFree>
+          <entryFree id="n14054" key="سَلَّة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلَّة</orth>
+                <itype>1t</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سِلَاْل</orth>
+                  <itype>23</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Rush, dash.</sense>
+            <sense n="b">Pilfering, theft, larceny.</sense>
+            <sense n="c">Crack, crevice, chink.</sense>
+            <sense n="d">Small basket.</sense>
+          </entryFree>
+          <entryFree id="n14055" key="سِلّ" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سِلّ</orth>
+                <itype>2</itype>
+              </form> , <form type="n">
+                <orth orig="" extent="full" lang="ar">سُلّ</orth>
+                <itype n="pref">3</itype>
+              </form> , </form>
+            <sense n="a">Consumption.</sense>
+          </entryFree>
+          <entryFree id="n14056" key="مِسْلَلَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">مِسْلَلَة</orth>
+                <itype>20t</itype>
+              </form> , ( <number>pl.</number>
+              <gram type="infl">reg.</gram> &amp; <form type="n">
+                <orth orig="" extent="full" lang="ar">مَسَاْلِلُ</orth>
+                <itype>44</itype>
+              </form> ), </form>
+            <sense n="a">Large needle; packing-needle.</sense>
+            <sense n="b">Obelisk.</sense>
+          </entryFree>
+          <entryFree id="n14057" key="سَاْلِل" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَاْلِل</orth>
+                <itype>21</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سُلَّاْن</orth>
+                  <itype>35</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Middle of a valley; torrent, water-course.</sense>
+          </entryFree>
+          <entryFree id="n14058" key="سُلَاْل" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سُلَاْل</orth>
+                <itype>24</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">3</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14059" key="سُلَاْلَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سُلَاْلَة</orth>
+                <itype>24t</itype>
+              </form> , </form>
+            <sense n="a">Posterity, offspring, children.</sense>
+            <sense n="b">Extract, essence, quintessence. —</sense>
+          </entryFree>
+          <entryFree id="n14060" key="سَلِيْل" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلِيْل</orth>
+                <itype>25</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سُلَّاْن</orth>
+                  <itype>35</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Child, son; colt.</sense>
+            <sense n="b">Marrow.</sense>
+            <sense n="c">Pure wine.</sense>
+            <sense n="d">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">21</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14061" key="سَلِيْلَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلِيْلَة</orth>
+                <itype>25t</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَلَاْئِلُ</orth>
+                  <itype>46</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Girl, daughter; filly.</sense>
+            <sense n="b">Strip, slice of meat; fillet.</sense>
+            <sense n="c">
+              <dictScrap> Handful of wool or cotton ( <usg>ready for
+                  spinning</usg> ). </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n14062" key="سَلَّاْل" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَلَّاْل</orth>
+                <itype>28</itype>
+              </form> , </form>
+            <sense n="a">Basket-maker.</sense>
+          </entryFree>
+          <entryFree id="n14063" key="سَلڤلَ" type="main">
+            <form>
+              <mood>N. P.</mood>
+              <form>
+                <orth orig="" extent="full" lang="ar">سَلڤلَ</orth>
+                <itype type="conj">I</itype>
+              </form> , </form>
+            <sense n="a">Consumptive, phthisical.</sense>
+          </entryFree>
+          <entryFree id="n14064" key="سَلْ" type="main">
+            <form>
+              <orth extent="full" lang="ar">سَلْ</orth>
+            </form>
+            <sense n="a">
+              <dictScrap> [ <def>imp. of</def>
+                <foreign lang="ar">سَأَلَ</foreign> ] Ask! </dictScrap>
+            </sense>
+          </entryFree>
+        </div2>
+       <div2 part="N" n="سفن" org="uniform" sample="complete" type="root">
+          <entryFree id="n13861" key="سَفَنَ" type="main">
+            <form>
+              <orth extent="full" lang="ar">سَفَنَ</orth>
+              <itype type="vowel">I</itype> ( <form>
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَفْن</orth>
+                  <itype>1</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Stripped, scraped, peeled; skinned.</sense>
+            <sense n="b">
+              <dictScrap>
+                <form>
+                  <itype type="vowel">U</itype> ( <form>
+                    <mood>n. ac.</mood>
+                    <form type="n">
+                      <orth orig="" extent="full" lang="ar">سُفُوْن</orth>
+                      <itype>27</itype>
+                    </form>
+                  </form>
+                </form> ), Blew ( <usg>wind</usg> ). </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n13862" key="سَفِنَ" type="main">
+            <form>
+              <orth orig="Bi" extent="full" lang="ar">سَفِنَ</orth>
+              <itype type="vowel">A</itype> ( <form>
+                <mood>n. ac.</mood>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَفْن</orth>
+                  <itype>1</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see supra</lbl>
+                  <ref targOrder="U">(b)</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n13863" key="سَفَن" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَفَن</orth>
+                <itype>4</itype>
+              </form> , </form>
+            <sense n="a">
+              <dictScrap>
+                <xr>
+                  <lbl>see</lbl>
+                  <ref targOrder="U">20</ref>
+                </xr> . </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n13864" key="مِسْفَن" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">مِسْفَن</orth>
+                <itype>20</itype>
+              </form> , </form>
+            <sense n="a">Rough skin, leather, stone &amp;c. used for
+              polishing.</sense>
+            <sense n="b">Adz &amp;c.</sense>
+          </entryFree>
+          <entryFree id="n13865" key="سِفَاْنَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سِفَاْنَة</orth>
+                <itype>23t</itype>
+              </form> , </form>
+            <sense n="a">Navigation.</sense>
+            <sense n="b">Ship-building.</sense>
+          </entryFree>
+          <entryFree id="n13866" key="سَفِيْن" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَفِيْن</orth>
+                <itype>25</itype>
+              </form>
+            </form>
+            <sense n="a">
+              <dictScrap> [ <usg type="reg">coll.</usg> ], Wedge; adz.
+              </dictScrap>
+            </sense>
+          </entryFree>
+          <entryFree id="n13867" key="سَفِيْنَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَفِيْنَة</orth>
+                <itype>25t</itype>
+              </form> , ( <form>
+                <number>pl.</number>
+                <form type="n">
+                  <orth orig="" extent="full" lang="ar">سُفُن</orth>
+                  <itype n="pref">10</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَفِيْن</orth>
+                  <itype>25</itype>
+                </form> , <form type="n">
+                  <orth orig="" extent="full" lang="ar">سَفَاْئِنُ</orth>
+                  <itype>46</itype>
+                </form>
+              </form> ), </form>
+            <sense n="a">Vessel, ship.</sense>
+          </entryFree>
+          <entryFree id="n13868" key="سَفَّاْن" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَفَّاْن</orth>
+                <itype>28</itype>
+              </form> , </form>
+            <sense n="a">Ship-builder.</sense>
+          </entryFree>
+          <entryFree id="n13869" key="سَفَّاْنَة" type="main">
+            <form>
+              <form type="n">
+                <orth orig="" extent="full" lang="ar">سَفَّاْنَة</orth>
+                <itype>28t</itype>
+              </form> , </form>
+            <sense n="a">Pearl.</sense>
+          </entryFree>
+          <entryFree id="n13870" key="سَِفَنْج" type="main">
+            <form>
+              <orth extent="full" lang="ar">سَِفَنْج</orth> , <orth extent="full" lang="ar">سُفِنْج</orth>
+              <lang>P.</lang> , </form>
+            <sense n="a">Sponge.</sense>
+          </entryFree>
+        </div2>
+</div1>
