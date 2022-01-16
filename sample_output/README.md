@@ -4,6 +4,6 @@ This directory contains `ysr.html` (View here: https://raw.githack.com/adamitura
 
 The HTML file is for the dictionary root  entry "يسر". You can compare the HTML output to the print version `ysr.png` (in this directory and also below).
 
-![print version](https://github.com/adamiturabi/sal/edit/master/sample_output/ysr.png)
+![print version](https://raw.githubusercontent.com/adamiturabi/sal/master/sample_output/ysr.png)
 
 Compare also to the online version at Perseus: http://www.perseus.tufts.edu/hopper/text?doc=y.ysr&fromdoc=Perseus%3Atext%3A2002.02.0005
