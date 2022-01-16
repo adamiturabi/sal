@@ -189,14 +189,33 @@ declare function local:process_gramGrp($gramGrp_in as element()) {
             "ه"
         else $x
 };
+declare function local:display_xr_ref_text($xin as element()) {
+    for $x in $xin
+    return <span class="d-inline px-2" style="background:#e9ecef"><i>{string($x)}</i></span>
+};
+declare function local:get_xref_sense($xr_in as element()) {
+    for $xr in $xr_in
+    let $xreftokens := fn:tokenize($xr/ref/text(), ' ')
+    let $xreftokensfirstchar := fn:substring($xreftokens[1],1,1)
+    let $senseidx := fn:substring($xreftokens[2], 2, 1)
+    return 
+        if ($xreftokensfirstchar = "I" or $xreftokensfirstchar = "V" or $xreftokensfirstchar = "X") then
+            for $entry in $xr/ancestor::div2//entryFree
+            where $entry/form/itype[text()=$xreftokens[1]]
+            return (local:process_sense($entry/sense[@n=$senseidx]), local:display_xr_ref_text($xr))
+        else 
+            for $entry in $xr/ancestor::div2//entryFree
+            where $entry/form/form/itype[text()=$xreftokens[1]]
+            return (local:process_sense($entry/sense[@n=$senseidx]), local:display_xr_ref_text($xr))
+};
 declare function local:process_xr($xr_in as element()) {
     for $xr in $xr_in
     return
         if (exists($xr/@idref)) then
-            string(doc('/db/salmone/salsub.xml')//entryFree[@id=string($xr/@idref)]/sense[@n=string($xr/@refSense)])
-        else ()
+            (string(doc('/db/salmone/salsub.xml')//entryFree[@id=string($xr/@idref)]/sense[@n=string($xr/@refSense)]), local:display_xr_ref_text($xr))
+        else local:get_xref_sense($xr)
 };
-declare function local:process_sense($sense_nodein as node()+) {
+declare function local:process_sense($sense_nodein as node()*) {
     for $x in $sense_nodein/node()
     return
         if ($x instance of text()) then
@@ -247,7 +266,7 @@ declare function local:process_form_list2($formin as element()) {
 <li class="list-inline-item"><span class="d-inline px-2" style="background:#ced4da">
 {
                 if (exists($listitem/itype) and $listitem/itype/@type="vowel") then
-                    (string($listitem/itype),
+                    (fn:lower-case(string($listitem/itype)),
                     if (exists($listitem/orth)) then
                         " ("||string($listitem/orth)||")"
                     else ())
@@ -334,6 +353,8 @@ declare function local:process_entries($entries as node()+) {
                 $title_prefix || "I"
             else
                 $title_prefix || $verb_form_str
+        else if (exists($entry/form/form/itype)) then
+            "Entry "||string($entry/form/mood)||string($entry/form/form/itype)
         else "Entry"
     return
 <div class="card">
