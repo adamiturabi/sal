@@ -3,6 +3,16 @@ Salmone Dictionary
 
 This repo has been forked from the Alpheios Project. They (and Perseus) digitzed Salmone's Arabic dictionary in XML. My goal is to use that XML data to provide a searchable lookup of roots and entries. I'm using Xquery and eXist-db as implementation. Currently, the Xquery code is very primitive, partly because I want to get something quick and dirty, and partly because I'm new to Xquery. I'm using Bootstrap CSS at the front-end, mostly because I don't want to spend more time than I need to on the frontend right now.
 
+## Sample Output
+
+The `sample_output` directory contains `ysr.html` (View here: https://raw.githack.com/adamiturabi/sal/master/sample_output/ysr.html) an HTML file of the kind of output we want to produce. The HTML file is real, in that it has been produced by an Xquery program that works on the input XML. However, the XML has been modified to allow the program to produce the correct output. Our aim is to minimize modification of the input XML that we sources from Alpheios.
+
+The HTML file is for the dictionary root  entry "يسر". You can compare the HTML output to the print version below:
+
+![print version](https://raw.githubusercontent.com/adamiturabi/sal/master/sample_output/ysr.png)
+
+Compare also to the online version at Perseus: http://www.perseus.tufts.edu/hopper/text?doc=y.ysr&fromdoc=Perseus%3Atext%3A2002.02.0005
+
 ## Changes to the XML
 
 After going through the XML I've realized that I'll need to edit it in some places. This is in the following cases or for the following reasons:
