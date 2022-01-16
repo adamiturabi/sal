@@ -1,5 +1,7 @@
 xquery version "3.1";
 declare option exist:serialize "method=xhtml media-type=text/html indent=yes";
+import module namespace arabverbconj_namespace="http://exist-db.org/xquery/arabverbconj"
+at "java:org.exist.xquery.modules.arabverbconj.ArabicVerbConjugatorModule";
 
 declare function local:get_entry($key as xs:string) as node()+ {
      for $entry in doc('/db/salmone/salsub.xml')//entryFree[@key=$key]
@@ -191,7 +193,7 @@ declare function local:process_gramGrp($gramGrp_in as element()) {
 };
 declare function local:display_xr_ref_text($xin as element()) {
     for $x in $xin
-    return <span class="d-inline px-2" style="background:#e9ecef"><i>{string($x)}</i></span>
+    return <span class="d-inline px-2" style="background:#e9ecef"><i>{fn:replace(string($x), 'see', 'ref.')}</i></span>
 };
 declare function local:get_xref_sense($xr_in as element()) {
     for $xr in $xr_in
@@ -202,11 +204,11 @@ declare function local:get_xref_sense($xr_in as element()) {
         if ($xreftokensfirstchar = "I" or $xreftokensfirstchar = "V" or $xreftokensfirstchar = "X") then
             for $entry in $xr/ancestor::div2//entryFree
             where $entry/form/itype[text()=$xreftokens[1]]
-            return (local:process_sense($entry/sense[@n=$senseidx]), local:display_xr_ref_text($xr))
+            return (local:process_sense($entry/sense[@n=$senseidx], true()), local:display_xr_ref_text($xr))
         else 
             for $entry in $xr/ancestor::div2//entryFree
             where $entry/form/form/itype[text()=$xreftokens[1]]
-            return (local:process_sense($entry/sense[@n=$senseidx]), local:display_xr_ref_text($xr))
+            return (local:process_sense($entry/sense[@n=$senseidx], true()), local:display_xr_ref_text($xr))
 };
 declare function local:process_xr($xr_in as element()) {
     for $xr in $xr_in
@@ -215,14 +217,14 @@ declare function local:process_xr($xr_in as element()) {
             (string(doc('/db/salmone/salsub.xml')//entryFree[@id=string($xr/@idref)]/sense[@n=string($xr/@refSense)]), local:display_xr_ref_text($xr))
         else local:get_xref_sense($xr)
 };
-declare function local:process_sense($sense_nodein as node()*) {
+declare function local:process_sense($sense_nodein as node()*, $dont_process_form as xs:boolean) {
     for $x in $sense_nodein/node()
     return
         if ($x instance of text()) then
             $x
         else if (name($x) = "dictScrap") then
-            local:process_sense($x)
-        else if (name($x) = "form") then
+            local:process_sense($x, $dont_process_form)
+        else if (name($x) = "form" and not($dont_process_form)) then
             local:process_inline_form($x)
         else if (name($x) = "usg") then
             <i>{string($x)}</i>
@@ -237,7 +239,7 @@ declare function local:process_senses($entry as node()) {
     return
     <li class="list-group-item">
 {
-        local:process_sense($sense)
+        local:process_sense($sense, false())
 }
     </li>
 };
@@ -295,14 +297,30 @@ declare function local:process_verb_display_card($entry as element()) {
 };
 declare function local:process_verb_entry_forms($entry_in as element()) {
     for $entry in $entry_in
+    let $div2 := $entry/ancestor::div2
+    let $verbroot := $div2/@n
+    let $verbform := string($entry/form/itype/text())
     return
         if (exists($entry/form/form/mood)) then
             local:process_verb_display_card($entry)
         else (
 <div class="card">
     <div class="card-body">
-        <span class="d-inline-flex">
-        "Auto-generate from conjugator"
+        <span class="d-inline-flex mx-1">
+            <ul class="list-inline p-1 m-0" style="background:#e9ecef">
+                <li class="list-inline-item"><span class="badge me-2 bg-secondary">{"pret."}</span></li>
+                <li class="list-inline-item"><span class="d-inline px-2" style="background:#ced4da">
+            {arabverbconj_namespace:arabverbconj($verbroot, $verbform, "0")}
+                </span></li>
+            </ul>
+        </span>
+        <span class="d-inline-flex mx-1">
+            <ul class="list-inline p-1 m-0" style="background:#e9ecef">
+                <li class="list-inline-item"><span class="badge me-2 bg-secondary">{"ao."}</span></li>
+                <li class="list-inline-item"><span class="d-inline px-2" style="background:#ced4da">
+            {arabverbconj_namespace:arabverbconj($verbroot, $verbform, "1")}
+                </span></li>
+            </ul>
         </span>
     </div>
 </div>
@@ -354,7 +372,7 @@ declare function local:process_entries($entries as node()+) {
             else
                 $title_prefix || $verb_form_str
         else if (exists($entry/form/form/itype)) then
-            "Entry "||string($entry/form/mood)||string($entry/form/form/itype)
+            "Entry "||string($entry/form/mood)||" "||string($entry/form/form/itype)
         else "Entry"
     return
 <div class="card">

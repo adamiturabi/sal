@@ -54,7 +54,11 @@ public class ArabicVerbConjugatorFunction extends BasicFunction {
 		new FunctionSignature(
 			new QName("arabverbconj", ArabicVerbConjugatorModule.NAMESPACE_URI, ArabicVerbConjugatorModule.PREFIX),
 			"A useless example function. It just concatenates the input string with Hello.",
-			new SequenceType[] { new FunctionParameterSequenceType("text", Type.STRING, Cardinality.ONE, "Input text")},
+			new SequenceType[] { 
+        new FunctionParameterSequenceType("text", Type.STRING, Cardinality.ONE, "Root")
+        , new FunctionParameterSequenceType("text", Type.STRING, Cardinality.ONE, "Verb form in roman numeral")
+        , new FunctionParameterSequenceType("text", Type.STRING, Cardinality.ONE, "0: past, 1: present")
+      },
 			new FunctionReturnSequenceType(Type.STRING, Cardinality.ONE, "Output text"));
 
 	public ArabicVerbConjugatorFunction(XQueryContext context) {
@@ -71,11 +75,11 @@ public class ArabicVerbConjugatorFunction extends BasicFunction {
 		
 		// iterate through the argument sequence and output each item
 		ValueSequence result = new ValueSequence();
-		for (SequenceIterator i = args[0].iterate(); i.hasNext();) {
-			String str = i.nextItem().getStringValue();
-			result.add(new StringValue("Hello " + str));
-		}
+    result.add(new StringValue(Conjugator.process(args[0].getStringValue(), args[1].getStringValue(), args[2].getStringValue())));
+		//for (SequenceIterator i = args[0].iterate(); i.hasNext();) {
+		//	String str = i.nextItem().getStringValue();
+		//	result.add(new StringValue("Hello " + str));
+		//}
 		return result;
 	}
-
 }

@@ -106,8 +106,8 @@
               <dictScrap>
                 <xr>
                   <lbl>see</lbl>
-                  <ref targOrder="U"/>
-                </xr> ( <orth orig="Bi" extent="full" lang="ar">يَسِرَ</orth> ).
+                  <ref targOrder="U">Ii (a)</ref>
+                </xr>
               </dictScrap>
             </sense>
             <sense n="b">Was little, scanty.</sense>
@@ -375,14 +375,14 @@
               <dictScrap>
                 <xr>
                   <lbl>see</lbl>
-                  <ref targOrder="U">4 (a)</ref> &amp; <ref targOrder="U">4</ref>
+                  <ref targOrder="U">4 (a)</ref>
                 </xr></dictScrap>
             </sense>
             <sense n="c">
               <dictScrap>
                 <xr>
                   <lbl>see</lbl>
-                  <ref targOrder="U">4 (b)</ref> &amp; <ref targOrder="U">4</ref>
+                  <ref targOrder="U">4 (b)</ref>
                 </xr></dictScrap>
             </sense>
           </entryFree>
