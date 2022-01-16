@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://exist-db.org/ns/expath-pkg">
+    <jar>arabverbconj-2015.10.29.jar</jar>
+    <java>
+        <namespace>http://exist-db.org/xquery/arabverbconj</namespace>
+        <class>org.exist.xquery.modules.arabverbconj.ArabicVerbConjugatorModule</class>
+    </java>
+</package>

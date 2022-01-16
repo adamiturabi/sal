@@ -1,0 +1,89 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.exist.xquery.modules.arabverbconj</groupId>
+  <artifactId>arabverbconj</artifactId>
+  <packaging>jar</packaging>
+  <version>2015.10.29</version>
+  <name>arabverbconj</name>
+  <url>http://www.exist-db.org</url>
+  <organization>
+    <name>eXist Solutions</name>
+    <url>http://www.existsolutions.com</url>
+  </organization>
+
+  <dependencies>
+    <!-- eXistDB Library -->
+    <dependency>
+      <groupId>org.exist-db</groupId>
+      <artifactId>exist-core</artifactId>
+      <version>3.0.RC1</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptor>src/assembly/bin.xml</descriptor>
+          <finalName>arabverbconj-${project.version}</finalName>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.7</version>
+        <executions>
+          <execution>
+            <phase>install</phase>
+            <configuration>
+              <target>
+                <copy file="${project.build.directory}/arabverbconj-${project.version}.zip"
+                  tofile="${project.build.directory}/arabverbconj-${project.version}.xar"/>
+              </target>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+  <repositories>
+    <repository>
+      <id>eXistDB</id>
+      <url>https://raw.github.com/eXist-db/mvn-repo/master/</url>
+    </repository>
+  </repositories>
+
+</project>
