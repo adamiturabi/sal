@@ -10,7 +10,7 @@
               <form display="il">
                 <mood>pret.</mood>
                 <form>
-                  <orth extent="full" lang="ar">يَسَرَ</orth>
+                  <itype type="vowel">A</itype>
                 </form>
               </form>
               <form display="il">
@@ -51,13 +51,13 @@
           <entryFree id="n48442" key="يَسِرَ" type="main">
             <form>
                 <orth orig="Bi" extent="full" lang="ar">يَسِرَ</orth>
-                <itype type="conj">Ii</itype>
+                <itype type="conj">I-i</itype>
             </form>
             <form display="card">
               <form display="il">
                 <mood>pret.</mood>
                 <form>
-                  <orth orig="Bi" extent="full" lang="ar">يَسِرَ</orth>
+                  <itype type="vowel">I</itype>
                 </form>
               </form>
               <form display="il">
@@ -79,13 +79,13 @@
           <entryFree id="n48443" key="يَسُرَ" type="main">
             <form>
                 <orth orig="Bu" extent="full" lang="ar">يَسُرَ</orth>
-                <itype type="conj">Iu</itype>
+                <itype type="conj">I-u</itype>
             </form>
             <form display="card">
               <form display="il">
                 <mood>pret.</mood>
                 <form>
-                  <orth orig="Bu" extent="full" lang="ar">يَسُرَ</orth>
+                  <itype type="vowel">U</itype>
                 </form>
               </form>
               <form display="il">
@@ -194,7 +194,7 @@
               <form display="il">
                 <mood>pret.</mood>
                 <form>
-                  <orth extent="full" lang="ar">ايتَسَرَ</orth>
+                  <itype type="conj">VIII</itype>
                 </form>
                 <form>
                   <orth extent="full" lang="ar">اتَّسَرَ</orth>

@@ -264,14 +264,36 @@ declare function local:process_form_list2($formin as element()) {
 </span></li>
 {
         for $listitem in $form/form
+        let $div2 := $form/ancestor::div2
+        let $verbroot := $div2/@n
             return
 <li class="list-inline-item"><span class="d-inline px-2" style="background:#ced4da">
 {
+                if (exists($listitem/itype) and not(exists($listitem/orth))) then
+                    if (string($form/mood) = "pret.") then (
+                        if ($listitem/itype/@type="vowel") then (
+                            (: verb form I :)
+                            arabverbconj_namespace:arabverbconj($verbroot, "I", "0", fn:lower-case(string($listitem/itype)))
+                        ) else (
+                            (: verb form II+ :)
+                            arabverbconj_namespace:arabverbconj($verbroot, string($listitem/itype), "0", "a")
+                        )
+                    ) else if (string($form/mood) = "ao.") then (
+                        if ($listitem/itype/@type="vowel") then (
+                            (: verb form I :)
+                            arabverbconj_namespace:arabverbconj($verbroot, "I", "1", fn:lower-case(string($listitem/itype)))
+                        ) else (
+                            (: verb form II+ :)
+                            arabverbconj_namespace:arabverbconj($verbroot, string($listitem/itype), "1", "a")
+                        )
+                    ) else ()
+                    (:
                 if (exists($listitem/itype) and $listitem/itype/@type="vowel") then
                     (fn:lower-case(string($listitem/itype)),
                     if (exists($listitem/orth)) then
                         " ("||string($listitem/orth)||")"
                     else ())
+                    :)
                 else if (exists($listitem/orth)) then
                     string($listitem/orth)
                 else ()
@@ -310,7 +332,7 @@ declare function local:process_verb_entry_forms($entry_in as element()) {
             <ul class="list-inline p-1 m-0" style="background:#e9ecef">
                 <li class="list-inline-item"><span class="badge me-2 bg-secondary">{"pret."}</span></li>
                 <li class="list-inline-item"><span class="d-inline px-2" style="background:#ced4da">
-            {arabverbconj_namespace:arabverbconj($verbroot, $verbform, "0")}
+            {arabverbconj_namespace:arabverbconj($verbroot, $verbform, "0", "a")}
                 </span></li>
             </ul>
         </span>
@@ -318,7 +340,7 @@ declare function local:process_verb_entry_forms($entry_in as element()) {
             <ul class="list-inline p-1 m-0" style="background:#e9ecef">
                 <li class="list-inline-item"><span class="badge me-2 bg-secondary">{"ao."}</span></li>
                 <li class="list-inline-item"><span class="d-inline px-2" style="background:#ced4da">
-            {arabverbconj_namespace:arabverbconj($verbroot, $verbform, "1")}
+            {arabverbconj_namespace:arabverbconj($verbroot, $verbform, "1", "a")}
                 </span></li>
             </ul>
         </span>

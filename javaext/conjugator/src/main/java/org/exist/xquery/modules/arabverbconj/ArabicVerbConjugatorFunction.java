@@ -58,6 +58,7 @@ public class ArabicVerbConjugatorFunction extends BasicFunction {
         new FunctionParameterSequenceType("text", Type.STRING, Cardinality.ONE, "Root")
         , new FunctionParameterSequenceType("text", Type.STRING, Cardinality.ONE, "Verb form in roman numeral")
         , new FunctionParameterSequenceType("text", Type.STRING, Cardinality.ONE, "0: past, 1: present")
+        , new FunctionParameterSequenceType("text", Type.STRING, Cardinality.ONE, "r2_vowel")
       },
 			new FunctionReturnSequenceType(Type.STRING, Cardinality.ONE, "Output text"));
 
@@ -75,7 +76,7 @@ public class ArabicVerbConjugatorFunction extends BasicFunction {
 		
 		// iterate through the argument sequence and output each item
 		ValueSequence result = new ValueSequence();
-    result.add(new StringValue(Conjugator.process(args[0].getStringValue(), args[1].getStringValue(), args[2].getStringValue())));
+    result.add(new StringValue(Conjugator.process(args[0].getStringValue(), args[1].getStringValue(), args[2].getStringValue(), args[3].getStringValue())));
 		//for (SequenceIterator i = args[0].iterate(); i.hasNext();) {
 		//	String str = i.nextItem().getStringValue();
 		//	result.add(new StringValue("Hello " + str));
