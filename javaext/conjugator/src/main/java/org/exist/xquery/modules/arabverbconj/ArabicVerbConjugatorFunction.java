@@ -76,7 +76,7 @@ public class ArabicVerbConjugatorFunction extends BasicFunction {
 		
 		// iterate through the argument sequence and output each item
 		ValueSequence result = new ValueSequence();
-    result.add(new StringValue(Conjugator.process(args[0].getStringValue(), args[1].getStringValue(), args[2].getStringValue(), args[3].getStringValue())));
+    result.add(new StringValue(Conjugator.conjugate(args[0].getStringValue(), args[1].getStringValue(), args[2].getStringValue(), args[3].getStringValue())));
 		//for (SequenceIterator i = args[0].iterate(); i.hasNext();) {
 		//	String str = i.nextItem().getStringValue();
 		//	result.add(new StringValue("Hello " + str));

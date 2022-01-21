@@ -1,53 +1,16 @@
 package org.exist.xquery.modules.arabverbconj;
-public class Conjugator {
-    
-    static String A                 = "" + '\u0627';
-    static String b                 = "" + '\u0628';
-    static String p                 = "" + '\u0629';
-    static String t                 = "" + '\u062A';
-    static String v                 = "" + '\u062B';
-    static String j                 = "" + '\u062C';
-    static String H                 = "" + '\u062D';
-    static String x                 = "" + '\u062E';
-    static String d                 = "" + '\u062F';
-    static String dh                = "" + '\u0630';
-    static String r                 = "" + '\u0631';
-    static String z                 = "" + '\u0632';
-    static String s                 = "" + '\u0633';
-    static String sh                = "" + '\u0634';
-    static String S                 = "" + '\u0635';
-    static String D                 = "" + '\u0636';
-    static String T                 = "" + '\u0637';
-    static String Z                 = "" + '\u0638';
-    static String E                 = "" + '\u0639';
-    static String g                 = "" + '\u063A';
-    static String f                 = "" + '\u0641';
-    static String q                 = "" + '\u0642';
-    static String k                 = "" + '\u0643';
-    static String l                 = "" + '\u0644';
-    static String m                 = "" + '\u0645';
-    static String n                 = "" + '\u0646';
-    static String h                 = "" + '\u0647';
-    static String w                 = "" + '\u0648';
-    static String Y                 = "" + '\u0649';
-    static String y                 = "" + '\u064A';
-    static String tatw              = "" + '\u0640';
-    static String hamza             = "" + '\u0621';
-    static String hamza_above       = "" + '\u0654';
-    static String hamza_below       = "" + '\u0655';
-    static String F                 = "" + '\u064b';
-    static String N                 = "" + '\u064c';
-    static String K                 = "" + '\u064d';
-    static String a                 = "" + '\u064e';
-    static String u                 = "" + '\u064f';
-    static String i                 = "" + '\u0650';
-    static String shaddah           = "" + '\u0651';
-    static String o                 = "" + '\u0652';
-    static String maddah_above      = "" + '\u0653';
-    static String dagA              = "" + '\u0670';
-    static String Awasl             = "" + '\u0671';
 
-  public static String process(String root, String itype, String tense, String r2_vowel) {
+/*
+import java.lang.ProcessBuilder;
+import java.util.List;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+*/
+
+public class Conjugator extends BaseClass {
+    
+  public static String conjugate(String root, String itype, String tense, String r2_vowel) {
     String retval = "";
     if (r2_vowel.equals("a")) r2_vowel = a;
     else if (r2_vowel.equals("i")) r2_vowel = i;
@@ -83,7 +46,7 @@ public class Conjugator {
     retval = retval.replaceAll(a + A + o, a + A);
     retval = retval.replaceAll(u + y + o, u + w);
     retval = retval.replaceAll(i + w + o, i + y);
-    return retval;
+    return Hamzater.hamzate(retval);
   }
   public static String process_tri_verb_form_1(String root, String itype, String tense, String r2_vowel) {
     String retval = "";
