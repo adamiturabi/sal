@@ -1,5 +1,6 @@
 # sal
-Salmone Dictionary
+
+HTML website project for *An Advanced Learner's Arabic-English Dictionary* by H. Anthony Salmoné.
 
 This repo has been forked from the Alpheios Project. They (and Perseus) digitzed Salmone's Arabic dictionary in XML. My goal is to use that XML data to provide a searchable lookup of roots and entries. I'm using Xquery and eXist-db as implementation. Currently, the Xquery code is very primitive, partly because I want to get something quick and dirty, and partly because I'm new to Xquery. I'm using Bootstrap CSS at the front-end, mostly because I don't want to spend more time than I need to on the frontend right now.
 
