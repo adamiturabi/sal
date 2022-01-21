@@ -1,7 +1,10 @@
 xquery version "3.1";
 declare option exist:serialize "method=xhtml media-type=text/html indent=yes";
-import module namespace arabverbconj_namespace="http://exist-db.org/xquery/arabverbconj"
-at "java:org.exist.xquery.modules.arabverbconj.ArabicVerbConjugatorModule";
+(:  :import module namespace arabverbconj_namespace="http://exist-db.org/xquery/arabverbconj"
+    :at "java:org.exist.xquery.modules.arabverbconj.ArabicVerbConjugatorModule";
+:)
+import module namespace commonfunc_namespace="http://exist-db.org/xquery/commonfunc"
+at "java:org.exist.xquery.modules.commonfunc.CommonFuncModule";
 
 declare function local:get_entry($key as xs:string) as node()+ {
      for $entry in doc('/db/salmone/salsub.xml')//entryFree[@key=$key]
@@ -273,18 +276,18 @@ declare function local:process_form_list2($formin as element()) {
                     if (string($form/mood) = "pret.") then (
                         if ($listitem/itype/@type="vowel") then (
                             (: verb form I :)
-                            arabverbconj_namespace:arabverbconj($verbroot, "I", "0", fn:lower-case(string($listitem/itype)))
+                            commonfunc_namespace:commonfunc(("conj", $verbroot, "I", "0", fn:lower-case(string($listitem/itype))))
                         ) else (
                             (: verb form II+ :)
-                            arabverbconj_namespace:arabverbconj($verbroot, string($listitem/itype), "0", "a")
+                            commonfunc_namespace:commonfunc(("conj", $verbroot, string($listitem/itype), "0", "a"))
                         )
                     ) else if (string($form/mood) = "ao.") then (
                         if ($listitem/itype/@type="vowel") then (
                             (: verb form I :)
-                            arabverbconj_namespace:arabverbconj($verbroot, "I", "1", fn:lower-case(string($listitem/itype)))
+                            commonfunc_namespace:commonfunc(("conj", $verbroot, "I", "1", fn:lower-case(string($listitem/itype))))
                         ) else (
                             (: verb form II+ :)
-                            arabverbconj_namespace:arabverbconj($verbroot, string($listitem/itype), "1", "a")
+                            commonfunc_namespace:commonfunc(("conj", $verbroot, string($listitem/itype), "1", "a"))
                         )
                     ) else ()
                     (:
@@ -332,7 +335,7 @@ declare function local:process_verb_entry_forms($entry_in as element()) {
             <ul class="list-inline p-1 m-0" style="background:#e9ecef">
                 <li class="list-inline-item"><span class="badge me-2 bg-secondary">{"pret."}</span></li>
                 <li class="list-inline-item"><span class="d-inline px-2" style="background:#ced4da">
-            {arabverbconj_namespace:arabverbconj($verbroot, $verbform, "0", "a")}
+            {commonfunc_namespace:commonfunc(("conj", $verbroot, $verbform, "0", "a"))}
                 </span></li>
             </ul>
         </span>
@@ -340,7 +343,7 @@ declare function local:process_verb_entry_forms($entry_in as element()) {
             <ul class="list-inline p-1 m-0" style="background:#e9ecef">
                 <li class="list-inline-item"><span class="badge me-2 bg-secondary">{"ao."}</span></li>
                 <li class="list-inline-item"><span class="d-inline px-2" style="background:#ced4da">
-            {arabverbconj_namespace:arabverbconj($verbroot, $verbform, "1", "a")}
+            {commonfunc_namespace:commonfunc(("conj", $verbroot, $verbform, "1", "a"))}
                 </span></li>
             </ul>
         </span>
