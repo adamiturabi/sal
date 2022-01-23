@@ -816,7 +816,7 @@
               <form display="il">
                 <mood>pret.</mood>
                 <form>
-                  <orth extent="full" lang="ar">سَلِطَ</orth>
+                  <itype type="vowel">I</itype>
                 </form>
               </form>
               <form display="il">
@@ -837,7 +837,7 @@
               <form display="il">
                 <mood>pret.</mood>
                 <form>
-                  <orth orig="Bu" extent="full" lang="ar">سَلُطَ</orth>
+                  <itype type="vowel">U</itype>
                 </form>
               </form>
               <form display="il">
@@ -877,7 +877,7 @@
             </form>
             <sense n="a">
               <dictScrap> [ <gramGrp>
-                  <subc>Ala</subc>
+                  <subc>'Ala</subc>
                 </gramGrp> ], Overcame, prevailed over; mastered, subdued;
                 became master of. </dictScrap>
             </sense>
@@ -953,14 +953,13 @@
             </sense>
             <sense n="d">
               <dictScrap>
-                <form> ( <form>
-                    <number>pl.</number>
-                    <form type="n">
-                      <orth orig="" extent="full" lang="ar">سِلْطَاْن</orth>
-                      <itype>34</itype>
-                    </form>
+                <form>
+                  <number>pl.</number>
+                  <form type="n">
+                    <orth orig="" extent="full" lang="ar">سِلْطَاْن</orth>
+                    <itype>34</itype>
                   </form>
-                </form> ), Oil. </dictScrap>
+                </form>Oil. </dictScrap>
             </sense>
           </entryFree>
           <entryFree id="n14138" key="سَلِيْطَة" type="main">
