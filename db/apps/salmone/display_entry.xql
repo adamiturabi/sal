@@ -253,16 +253,18 @@ declare function local:process_nonverb_entry_form($entry_in as element()) {
     <div class="card-body">
 {
         if (exists($entry/form/orth)) then
-            for $orth in $entry/form/orth
+            for $form in $entry/form
+            let $lang := if (exists($form/lang)) then " ("||string($form/lang)||")" else ""
             return
-        <span class="d-inline-flex p-1 m-1" style="background:#ced4da">{string($orth)}</span>
+        <span class="d-inline-flex p-1 m-1" style="background:#ced4da">{string($form/orth)||$lang}</span>
         else if (exists($entry/form/form/orth)) then
             for $form in $entry/form/form
+            let $lang := if (exists($form/lang)) then " ("||string($form/lang)||")" else ""
             return
                 if (exists($form/number)) then
                     local:process_form_list2($form)
                 else if (exists($form/orth)) then
-        <span class="d-inline-flex p-1 m-1" style="background:#ced4da">{string($form/orth)}</span>
+        <span class="d-inline-flex p-1 m-1" style="background:#ced4da">{string($form/orth)||$lang}</span>
                 else ()
         else()
 }
@@ -292,7 +294,11 @@ declare function local:process_entries($entries as node()+) {
             else
                 $title_prefix || $verb_form_str
         else if (exists($entry/form/form/itype)) then
-            "Entry "||string($entry/form/mood)||" "||string($entry/form/form/itype)
+            ("Entry "||string($entry/form/mood)||" ",
+            for $itype at $position in $entry/form/form/itype
+            let $last := count($entry/form/form/itype)
+            let $comma := if ($position ne $last) then ", " else ""
+            return string($itype)||$comma)
         else "Entry"
     return
 <div class="card">
