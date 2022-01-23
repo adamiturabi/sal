@@ -14,154 +14,18 @@ declare function local:get_root($key as xs:string) as node()+ {
      for $entry in doc('/db/lexica/ara/sal/usalmone_edited.xml')//div2[@n=$key]/entryFree
      return $entry
 };
-declare function local:process_genform($formin as node()) {
-    for $form in $formin
-    return
-<div class="card">
-    <div class="card-body">
-        <span class="px-2">
-{
-        if (exists($form/orth)) then
-            fn:normalize-space($form/orth/text())
-        else if (exists($form/form)) then
-            local:process_form($form/form)
-        else ()
-}
-        </span> 
-    </div>
-</div>
-};
-declare function local:process_formIIplusverb($formin as node()) {
-    for $form in $formin
-    return
-<div class="card">
-    <div class="card-body">
-        <span class="px-2">
-            <span class="border border-primary">
-                <span class="badge bg-primary">pret:</span>
-                {fn:normalize-space($form/orth/text())}
-            </span>
-        </span>
-    </div>
-</div>
-};
-declare function local:process_formIverb($formin as node()) {
-    for $form in $formin
-    return
-<div class="card">
-    <div class="card-body">
-        <span class="px-2">
-            <span class="border border-primary">
-                <span class="badge bg-primary">pret.</span>
-                {fn:normalize-space($form/orth/text())}
-            </span>
-        </span>
-        <span class="px-2">
-            <span class="border border-primary">
-                <span class="badge bg-primary">ao.</span>
-                {fn:normalize-space($form/itype/text())}
-            </span>
-        </span>
-{
-        if (exists($form/form)) then
-            local:process_form($form/form)
-        else ()
-}
-    </div>
-</div>
-};
-declare function local:process_form_list($formin as node()+)
-{
-    for $form in $formin
-    for $form2 in $form/form
-    return
-        fn:normalize-space($form2/orth/text())
-};
-declare function local:process_masdars($formin as node()+)
-{
-    for $form in $formin
-    return
-<div class="card">
-    <div class="card-body">
-        <span class="px-2"> <span class="border border-primary">
-            <span class="badge bg-primary">n.ac.</span>
-{
-        if (exists($form/form)) then
-            local:process_form_list($form)
-        else fn:normalize-space($form/orth/text())
-}
-            </span>
-        </span>
-    </div>
-</div>
-};
-declare function local:process_usage_entry_form($formin as element()) {
-    for $form in $formin
-    return
-<span class="d-inline-flex" style="background:#ced4da">
-        {$form/orth}
-</span>  
-};
-declare function local:process_formIIplus_form($formin as element()) {
-    for $form in $formin
-    return
-<span class="d-inline-flex" style="background:#ced4da">
-        {$form/orth}
-</span>  
-};
-declare function local:process_form($formin as node()+)
-{
-    for $form in $formin
-    return
-        (:if (exists($form/orth) and not(exists($form/form)) and not(exists($form/itype))) then
-            local:process_usage_entry_form($form)
-        else if (exists($form/orth) and exists($form/itype) and $form/itype/@type="conj") then
-            local:process_formIIplus_verb_from($form):)
-        if (exists($form/mood) and fn:lower-case(fn:normalize-space($form/mood/text()))="n. ac.") then
-            local:process_masdars($form)
-        else if (exists($form/itype) and $form/itype/@type="vowel") then
-            local:process_formIverb($form)
-        else if (exists($form/itype) and $form/itype/@type="conj") then
-            local:process_formIIplusverb($form)
-        else local:process_genform($form)
-};
-declare function local:process_inline_aorist($itypein as node()+) {
-    for $itype in $itypein
-    return
-<span class="px-2">
-    <span class="border border-primary">
-        <span class="badge bg-primary">ao.</span>
-        {fn:normalize-space($itype/text())}
-    </span>
-</span>
-};
-declare function local:process_inline_masdar($formin as node()+) {
-    for $form in $formin
-    return
-<span class="px-2">
-    <span class="border border-primary">
-        <span class="badge bg-primary">n.ac.</span>
-{
-        if (exists($form/form)) then
-            local:process_form_list($form)
-        else fn:normalize-space($form/orth/text())
-}
-    </span>
-</span>
-};
 declare function local:process_inline_form($formin as node()+) {
     for $form in $formin
     return
+        (:
         if (fn:exists($form/itype) and $form/itype/@type="vowel") then
             local:process_inline_aorist($form/itype)
-        else if (exists($form/mood) or exists($form/number)) then
+            :)
+        if (exists($form/mood) or exists($form/number)) then
             local:process_form_list2($form)
-        (:else if (exists($form/mood) and fn:lower-case(fn:normalize-space($form/mood/text()))="n. ac.") then
-            local:process_inline_masdar($form)
-        else if (exists($form/form)) then
-            local:process_inline_form($form/form):)
         else()
 };
+
 declare function local:process_subc($subc as element()) {
     for $x in $subc/node()
     return
@@ -281,11 +145,6 @@ declare function local:process_senses($entry as node()) {
         local:process_sense($sense, false())
 }
     </li>
-};
-declare function local:process_forms($entry as node()) {
-    for $form in $entry/form
-    return
-        local:process_form($form)
 };
 declare function local:process_form_list2($formin as element()) {
     for $form in $formin
