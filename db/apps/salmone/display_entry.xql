@@ -7,11 +7,11 @@ import module namespace commonfunc_namespace="http://exist-db.org/xquery/commonf
 at "java:org.exist.xquery.modules.commonfunc.CommonFuncModule";
 
 declare function local:get_entry($key as xs:string) as node()+ {
-     for $entry in doc('/db/salmone/salsub.xml')//entryFree[@key=$key]
+     for $entry in doc('/db/lexica/ara/sal/usalmone_edited.xml')//entryFree[@key=$key]
      return $entry
 };
 declare function local:get_root($key as xs:string) as node()+ {
-     for $entry in doc('/db/salmone/salsub.xml')//div2[@n=$key]/entryFree
+     for $entry in doc('/db/lexica/ara/sal/usalmone_edited.xml')//div2[@n=$key]/entryFree
      return $entry
 };
 declare function local:process_genform($formin as node()) {
@@ -190,8 +190,19 @@ declare function local:process_gramGrp($gramGrp_in as element()) {
             local:process_subc($x)
         else if (name($x) = "gram") then
             <i>{string($x)}</i>
+        else if (name($x) = "colloc") then
+            <i>{string($x)}</i>
         else if (name($x) = "case" and string($x) = "acc.") then
             "ه"
+        else $x
+};
+declare function local:process_def($def_in as element()) {
+    for $x in $def_in/node()
+    return
+        if ($x instance of text()) then
+            <i>{$x}</i>
+        else if (name($x) = "foreign") then
+            <b>{string($x)}</b>
         else $x
 };
 declare function local:display_xr_ref_text($xin as element()) {
@@ -208,16 +219,28 @@ declare function local:get_xref_sense($xr_in as element()) {
             for $entry in $xr/ancestor::div2//entryFree
             where $entry/form/itype[text()=$xreftokens[1]]
             return (local:process_sense($entry/sense[@n=$senseidx], true()), local:display_xr_ref_text($xr))
-        else 
+        else
             for $entry in $xr/ancestor::div2//entryFree
             where $entry/form/form/itype[text()=$xreftokens[1]]
             return (local:process_sense($entry/sense[@n=$senseidx], true()), local:display_xr_ref_text($xr))
 };
+declare function local:linktoroot($linked_root as xs:string, $xr_text as xs:string) {
+    for $root in $linked_root
+    for $text in $xr_text
+    let $link := "http://localhost:8080/exist/rest/db/salmone/display_entry2.xql?key="||$root
+    return
+        <a href="{$link}">{$root}</a>
+};
 declare function local:process_xr($xr_in as element()) {
     for $xr in $xr_in
+    let $xr_text := local:display_xr_ref_text($xr)
+    let $linked_root := $xr/@idref
+    let $link := "http://localhost:8080/exist/rest/db/salmone/display_entry2.xql?key="||$linked_root
     return
         if (exists($xr/@idref)) then
-            (string(doc('/db/salmone/salsub.xml')//entryFree[@id=string($xr/@idref)]/sense[@n=string($xr/@refSense)]), local:display_xr_ref_text($xr))
+            if (fn:substring($xr/@idref,1,1) = 'n') then
+                (string(doc('/db/lexica/ara/sal/usalmone_edited.xml')//entryFree[@id=string($xr/@idref)]/sense[@n=string($xr/@refSense)]), $xr_text)
+            else local:linktoroot($linked_root, $xr_text)
         else local:get_xref_sense($xr)
 };
 declare function local:process_sense($sense_nodein as node()*, $dont_process_form as xs:boolean) {
@@ -231,6 +254,10 @@ declare function local:process_sense($sense_nodein as node()*, $dont_process_for
             local:process_inline_form($x)
         else if (name($x) = "usg") then
             <i>{string($x)}</i>
+        else if (name($x) = "def") then
+            local:process_def($x)
+        else if (name($x) = "foreign") then
+            <b>{string($x)}</b>
         else if (name($x) = "gramGrp") then
             local:process_gramGrp($x)
         else if (name($x) = "xr") then
