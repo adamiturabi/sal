@@ -196,13 +196,22 @@ declare function local:process_gramGrp($gramGrp_in as element()) {
             "ه"
         else $x
 };
+declare function local:process_foreign($x_in as element()) {
+    for $x in $x_in
+    return
+        if (string($x/@lang) = "xlar") then
+            <b>{string($x)}</b>
+        else if (string($x/@lang) = "ar") then
+            string($x)
+        else $x
+};
 declare function local:process_def($def_in as element()) {
     for $x in $def_in/node()
     return
         if ($x instance of text()) then
             <i>{$x}</i>
         else if (name($x) = "foreign") then
-            <b>{string($x)}</b>
+            local:process_foreign($x)
         else $x
 };
 declare function local:display_xr_ref_text($xin as element()) {
@@ -257,7 +266,7 @@ declare function local:process_sense($sense_nodein as node()*, $dont_process_for
         else if (name($x) = "def") then
             local:process_def($x)
         else if (name($x) = "foreign") then
-            <b>{string($x)}</b>
+            local:process_foreign($x)
         else if (name($x) = "gramGrp") then
             local:process_gramGrp($x)
         else if (name($x) = "xr") then
