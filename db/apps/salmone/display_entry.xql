@@ -273,7 +273,7 @@ declare function local:process_nonverb_entry_form($entry_in as element()) {
             let $lang := if (exists($form/lang)) then " ("||string($form/lang)||")" else ""
             let $err := if (exists($form/err)) then "<sup>*</sup>" else ""
             return
-        (<span class="d-inline-flex p-1 m-1" style="background:#ced4da; font-family:Vazir;">{local:display_orth(string($form/orth))||$lang}</span>,local:show_edited($form))
+        (<span class="d-inline-flex p-1 m-1" style="background:#ced4da; font-family:Vazir;">{string($form/orth)||$lang}</span>,local:show_edited($form))
         else if (exists($entry/form/form/orth)) then
             for $form in $entry/form/form
             let $lang := if (exists($form/lang)) then " ("||string($form/lang)||")" else ""
@@ -282,7 +282,7 @@ declare function local:process_nonverb_entry_form($entry_in as element()) {
                 if (exists($form/number)) then
                     local:process_form_list2($form)
                 else if (exists($form/orth)) then
-        (<span class="d-inline-flex p-1 m-1" style="background:#ced4da; font-family:Vazir;">{local:display_orth(string($form/orth))||$lang}</span>,local:show_edited($form))
+        (<span class="d-inline-flex p-1 m-1" style="background:#ced4da; font-family:Vazir;">{string($form/orth)||$lang}</span>,local:show_edited($form))
                 else ()
         else()
 }
