@@ -38,7 +38,9 @@ declare function local:process_subc($subc as element()) {
         else if ($x = "'An") then
             "عن"
         else if ($x = "'Ala") then
-            "على"
+            "على" 
+        else if ($x = "Min") then
+            "من"
         else if ($x = "Fi") then
             "في"
         else if ($x = "Bayn") then

@@ -278,19 +278,19 @@ public class Conjugator extends BaseClass {
     String r2 = "" + root.charAt(1);
     String r3 = "" + root.charAt(2);
     if (tense.equals("0")) {
-      retval = A + n + o + r1 + a + r2 + a + r3 + a;
+      retval = Awasl + i + n + o + r1 + a + r2 + a + r3 + a;
     } else {
       retval = y + a + n + o + r1 + a + r2 + i + r3 + u;
     }
     if (r3.equals(y) || r3.equals(w)) {
       if (tense.equals("0")) {
-        retval = A + n + o + r1 + a + r2 + a + Y + dagA; 
+        retval = Awasl + i + n + o + r1 + a + r2 + a + Y + dagA; 
       } else {
         retval = y + a + n + o + r1 + a + r2 + i + y;
       }
     } else if (r2.equals(r3)) {
       if (tense.equals("0")) {
-        retval = A + n + o + r1 + a + r2 + shaddah + a;
+        retval = Awasl + i + n + o + r1 + a + r2 + shaddah + a;
       } else {
         retval = y + a + n + o + r1 + a + r2 + shaddah + u;
       }
@@ -303,19 +303,19 @@ public class Conjugator extends BaseClass {
     String r2 = "" + root.charAt(1);
     String r3 = "" + root.charAt(2);
     if (tense.equals("0")) {
-      retval = A + r1 + o + t + a + r2 + a + r3 + a;
+      retval = Awasl + i + r1 + o + t + a + r2 + a + r3 + a;
     } else {
       retval = y + a + r1 + o + t + a + r2 + i + r3 + u;
     }
     if (r3.equals(y) || r3.equals(w)) {
       if (tense.equals("0")) {
-        retval = A + r1 + o + t + a + r2 + a + Y + dagA; 
+        retval = Awasl + i + r1 + o + t + a + r2 + a + Y + dagA; 
       } else {
         retval = y + a + r1 + o + t + a + r2 + i + y;
       }
     } else if (r2.equals(r3)) {
       if (tense.equals("0")) {
-        retval = A + r1 + o + t + a + r2 + shaddah + a;
+        retval = Awasl + i + r1 + o + t + a + r2 + shaddah + a;
       } else {
         retval = y + a + r1 + o + t + a + r2 + shaddah + u;
       }
@@ -328,19 +328,19 @@ public class Conjugator extends BaseClass {
     String r2 = "" + root.charAt(1);
     String r3 = "" + root.charAt(2);
     if (tense.equals("0")) {
-      retval = A + s + o + t + a + r1 + o + r2 + a + r3 + a;
+      retval = Awasl + i + s + o + t + a + r1 + o + r2 + a + r3 + a;
     } else {
       retval = y + a + s + o + t + a + r1 + o + r2 + i + r3 + u;
     }
     if (r3.equals(y) || r3.equals(w)) {
       if (tense.equals("0")) {
-        retval = A + s + o + t + a + r1 + o + r2 + a + Y + dagA; 
+        retval = Awasl + i + s + o + t + a + r1 + o + r2 + a + Y + dagA; 
       } else {
         retval = y + a + s + o + t + a + r1 + o + r2 + i + y;
       }
     } else if (r2.equals(r3)) {
       if (tense.equals("0")) {
-        retval = A + s + o + t + a + r1 + a + r2 + shaddah + a;
+        retval = Awasl + i + s + o + t + a + r1 + a + r2 + shaddah + a;
       } else {
         retval = y + a + s + o + t + a + r1 + i + r2 + shaddah + u;
       }
